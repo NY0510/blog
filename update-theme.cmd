@@ -1,1 +1,2 @@
-git submodule update --init --recursive
+cd themes/PaperMod
+git pull
