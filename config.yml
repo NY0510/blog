@@ -52,15 +52,15 @@ params:
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "https://cdn.statically.io/gh/NY0510/blog/main/static/favicon/favicon.ico"
-        favicon16x16: "https://cdn.statically.io/gh/NY0510/blog/main/static/favicon/favicon-16x16.png"
-        favicon32x32: "https://cdn.statically.io/gh/NY0510/blog/main/static/favicon/favicon-32x32.png"
-        apple_touch_icon: https://cdn.statically.io/gh/NY0510/blog/main/static/favicon/apple-touch-icon.png"
-        safari_pinned_tab: "https://cdn.statically.io/gh/NY0510/blog/main/static/favicon/apple-touch-icon.png"
+        favicon: "https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon.ico"
+        favicon16x16: "https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon-16x16.png"
+        favicon32x32: "https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon-32x32.png"
+        apple_touch_icon: https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/apple-touch-icon.png"
+        safari_pinned_tab: "https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/apple-touch-icon.png"
 
     label:
         text: "🌙"
-        icon: /static/favicon/favicon.png
+        # icon: "https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon-32x32.png"
         iconHeight: 35
 
     # profile-mode
