@@ -2,6 +2,7 @@
 title: "우분투에서 디스코드 화면공유 문제 해결하기"
 summary: "디스코드에서 전체화면 공유시 검은화면이 나오는 문제 해결하기"
 categories: ["문제 해결", "리눅스"]
+date: 2022-01-21
 tags:
     - Ubuntu
     - Discord
