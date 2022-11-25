@@ -53,7 +53,7 @@ Jekyll 블로그에 카카오 애드핏을 적용하는 방법과 1일 광고 �
 `_includes/adfit.html` 파일을 만든 다음 붙여넣어 줍니다.
 {{< img src="/posts/apply-kakao-adfit-to-jekyll-blog/images/image03.png" title="adfit.html 파일 생성" >}}
 
-```html
+```javascript
 <script>
 	if (window.matchMedia("( min-width: 1024px )").matches == true) {
 		document.write(
