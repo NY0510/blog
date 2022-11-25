@@ -56,3 +56,29 @@
 div.toc > details[open] > summary {
 	margin-top: 0.8rem;
 }
+
+/* Adfit */
+.adfit {
+	text-align: center;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+.adfit.pc {
+	width: 728px;
+	height: 90px;
+}
+.adfit.mobile {
+	width: 320px;
+	height: 100px;
+}
+.adfit.header {
+	margin-top: 2rem;
+}
+.adfit::before {
+	display: block;
+	content: "";
+}
