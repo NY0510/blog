@@ -52,15 +52,15 @@ params:
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "<link / abs url>"
-        favicon16x16: "<link / abs url>"
-        favicon32x32: "<link / abs url>"
-        apple_touch_icon: "<link / abs url>"
-        safari_pinned_tab: "<link / abs url>"
+        favicon: "https://cdn.statically.io/gh/NY0510/blog/main/static/favicon/favicon.ico"
+        favicon16x16: "https://cdn.statically.io/gh/NY0510/blog/main/static/favicon/favicon-16x16.png"
+        favicon32x32: "https://cdn.statically.io/gh/NY0510/blog/main/static/favicon/favicon-32x32.png"
+        apple_touch_icon: https://cdn.statically.io/gh/NY0510/blog/main/static/favicon/apple-touch-icon.png"
+        safari_pinned_tab: "https://cdn.statically.io/gh/NY0510/blog/main/static/favicon/apple-touch-icon.png"
 
     label:
         text: "🌙"
-        icon: /apple-touch-icon.png
+        icon: /static/favicon/favicon.png
         iconHeight: 35
 
     # profile-mode
