@@ -1,0 +1,58 @@
+/* 타이틀과 하단 마진 */
+.first-entry {
+	margin-bottom: 0;
+}
+
+/* 이미지 캡션 상단 마진 */
+.figure {
+	margin-bottom: 0 !important;
+}
+
+/* 유튜브 임베드 모서리 둥글게 */
+.video-player {
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	width: 640px;
+	height: 380px;
+}
+.video-player::before {
+	display: block;
+	content: "";
+}
+.youtube-player {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+	border: 0;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+
+/* 이전 / 다음 포스트 글자크기 */
+.paginav {
+	font-size: 1.1rem;
+}
+
+/*  이전 / 다음 포스트 패딩 */
+.paginav > a {
+	padding: 0.5rem;
+}
+.paginav > .prev {
+	padding-left: 1rem;
+}
+.paginav > .next {
+	padding-right: 1rem;
+}
+
+/* TOC안 Table of Conetnts 상단 마진 */
+div.toc > details[open] > summary {
+	margin-top: 0.8rem;
+}
