@@ -3,6 +3,7 @@ title: "Asus 비보북 14 우분투 설치기"
 summary: "설치 후 내 노트북에서만 발생하는 문제 해결"
 categories: ["문제 해결", "리눅스"]
 date: 2021-12-04
+comments: true
 tags:
     - Ubuntu
     - Laptop

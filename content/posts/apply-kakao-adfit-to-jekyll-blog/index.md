@@ -3,6 +3,7 @@ title: "Jekyll 블로그에 카카오 애드핏 적용하기"
 summary: "카카오 애드핏 적용과 1일 광고 수익"
 categories: ["강좌", "Jekyll"]
 date: 2022-02-25
+comments: true
 tags:
     - AdFit
     - AdSense
