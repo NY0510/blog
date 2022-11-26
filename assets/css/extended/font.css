@@ -5,7 +5,11 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
+@font-face {
+	font-family: "Tossface";
+	src: url("https://static.toss.im/tossface-font/TossFaceFontWeb.otf") format("opentype");
+	font-weight: 500;
+}
 body {
 	font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic",
 		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
@@ -13,4 +17,8 @@ body {
 
 code {
 	font-family: "D2Coding";
+}
+
+.tossface {
+	font-family: "Tossface";
 }

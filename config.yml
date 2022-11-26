@@ -80,7 +80,7 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "안녕하세요! \U0001F44B"
+        Title: "안녕하세요! <span class='tossface'>👋</span>"
         Content: NY64의 무한삽질 블로그에 오신걸 환영합니다
 
     socialIcons:
@@ -95,11 +95,11 @@ params:
 
     analytics:
         google:
-            SiteVerificationTag: "XYZabc"
-        bing:
-            SiteVerificationTag: "XYZabc"
-        yandex:
-            SiteVerificationTag: "XYZabc"
+            SiteVerificationTag: ""
+        # bing:
+        #     SiteVerificationTag: ""
+        # yandex:
+        #     SiteVerificationTag: ""
 
     cover:
         hidden: true # hide everywhere but not in structured data

@@ -1,3 +1,8 @@
+/* 테마변경 트렌지션 */
+body {
+	transition: background-color 0.5s, color 0.5s;
+}
+
 /* 타이틀과 하단 마진 */
 .first-entry {
 	margin-bottom: 0;
