@@ -52,7 +52,7 @@ OTP 코드를 생성하기 위해서는 코드를 생성해주는 앱이 필요�
 
 [Apple App Store](https://apps.apple.com/us/app/google-authenticator/id388497605) 또는 [Google Play Store](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)에서 **Google Authenticator** 앱을 설치합니다.
 
-{{< img src="/posts/setting-up-ssh-otp-on-raspberry-pi/images/app-store.png" title="oogle Authenticator 설치화면" >}}
+{{< img src="/posts/setting-up-ssh-otp-on-raspberry-pi/images/app-store.png" title="Google Authenticator 설치화면" >}}
 
 앱을 실행하면 아래와 같은 화면이 나올텐데, **Scan QR code**를 눌러 아까 콘솔에 출력된 QR코드를 스캔합니다.
 
