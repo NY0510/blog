@@ -150,17 +150,8 @@
 
 <!-- if in post page -->
 {{- if .IsPage }}
+
 <!-- Adfit -->
-<script>
-    if (window.matchMedia("( min-width: 1024px )").matches == true) {
-        document.write(
-            '<div class="adfit pc header"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-BGxutzmFIQKTCsBJ" data-ad-width="728" data-ad-height="90"></ins><script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async><\/script></div>'
-        );
-    }
-    if (window.matchMedia("( max-width: 768px )").matches == true) {
-        document.write(
-            '<div class="adfit mobile header"><ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-LIXGATwTsRbktuGW" data-ad-width="320" data-ad-height="100"></ins><script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async><\/script></div>'
-        );
-    }
-</script>
+{{- partial "ad.html" . -}}
+
 {{- end }}

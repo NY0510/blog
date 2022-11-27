@@ -80,7 +80,7 @@ div.toc > details[open] > summary {
 	width: 320px;
 	height: 100px;
 }
-.adfit.header {
+.adfit:first-of-type {
 	margin-top: 2rem;
 }
 .adfit::before {
