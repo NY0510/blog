@@ -28,9 +28,9 @@ params:
     description: "계속해서 성장해 나가고 있는 중학생 개발자, 김가온 입니다"
     keywords: [Blog, 블로그, NY64, NY0510, 개발자, 개발블로그, 코딩, 김가온, 남냥]
     author: NY64
-    images: ["<link or path of image for opengraph, twitter-cards>"]
+    images: ["https://raw.githubusercontent.com/NY0510/blog/main/static/image/og.png"]
     DateFormat: "January 2, 2006"
-    defaultTheme: auto # dark, light
+    defaultTheme: dark # dark, light
     disableThemeToggle: false
 
     ShowReadingTime: true
