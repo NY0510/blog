@@ -1,6 +1,6 @@
 ---
-title: "2FA인증으로 SSH 보안 강화하기 [2]"
-summary: "OTP 인증으로 SSH 보안을 강화하자"
+title: "2FA인증으로 SSH 보안 강화하기"
+summary: "OTP 인증으로 SSH 보안을 강화하자 / 리눅스 서버 보안설정 [2]"
 categories: ["강좌", "라즈베리파이", "리눅스"]
 date: 2021-10-27
 comments: true

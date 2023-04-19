@@ -1,6 +1,6 @@
 ---
-title: "Swap 설정 및 Nginx서버 설치 [2]"
-summary: "오라클 클라우드 무료티어를 사용해 나만의 '평생' 무료 VPS를 만들어보자"
+title: "Swap 설정 및 Nginx서버 설치"
+summary: "오라클 클라우드 무료티어를 사용해 나만의 '평생' 무료 VPS를 만들어보자 [2]"
 categories: ["강좌", "오라클 클라우드", "리눅스"]
 date: 2022-02-16
 comments: true

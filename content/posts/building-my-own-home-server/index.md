@@ -1,8 +1,8 @@
 ---
-title: "나만의 홈서버 구축하기"
+title: "나만의 홈서버 구축하기 [1]"
 date: 2023-02-14T07:11:03+09:00
 summary: "24시간 돌아가는 나만의 서버!"
-categories: ["강좌", "홈서버", "리눅스"]
+categories: ["강좌", "홈서버", "리눅스", "홈서버 구축"]
 comments: true
 tags:
     - Ubuntu
