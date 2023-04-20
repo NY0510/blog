@@ -25,8 +25,8 @@ outputs:
 params:
     env: production
     title: NY64의 무한삽질 블로그
-    description: "계속해서 성장해 나가고 있는 중학생 개발자, 김가온 입니다"
-    keywords: [Blog, 블로그, NY64, NY0510, 개발자, 개발블로그, 코딩, 김가온, 남냥]
+    description: "계속해서 성장해 나가고 있는 작은 학생 개발자, 김가온 입니다"
+    keywords: [Blog, 블로그, NY64, NY0510, 개발자, 개발블로그, 코딩, 김가온, 남냥, Devlog]
     author: NY64
     images: ["https://raw.githubusercontent.com/NY0510/blog/main/static/image/og.png"]
     DateFormat: "January 2, 2006"
