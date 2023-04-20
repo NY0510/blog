@@ -6,6 +6,7 @@ categories: ["강좌", "홈서버", "리눅스", "홈서버 구축"]
 comments: true
 tags:
     - Ubuntu
+    - Proxmox
     - Home Server
 ---
 
