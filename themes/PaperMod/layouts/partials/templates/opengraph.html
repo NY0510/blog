@@ -32,9 +32,9 @@
 <meta property="article:section" content="{{ .Section }}" />
 
 <!-- 커버 이미지 OG -->
-<meta property="og:image" content="{{ (path.Join .Params.cover.image) | absURL }}" />
+<!-- <meta property="og:image" content="{{ (path.Join .Params.cover.image) | absURL }}" />
 <meta property="twitter:image" content="{{ (path.Join .Params.cover.image) | absURL }}" />
-<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:card" content="summary_large_image" /> -->
 
 {{ with .PublishDate }}
 <meta property="article:published_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{ end }}
