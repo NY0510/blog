@@ -83,10 +83,10 @@ div.toc > details[open] > summary {
 .adfit:first-of-type {
 	margin-top: 2rem;
 }
-.adfit::before {
+/* .adfit::before {
 	display: block;
 	content: "";
-}
+} */
 
 /* 상단메뉴 활성화 밑줄 높이 */
 #menu .active {
