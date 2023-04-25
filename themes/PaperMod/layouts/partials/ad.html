@@ -16,9 +16,15 @@
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8867843198260985"
 	crossorigin="anonymous"></script>
 
-<!-- ad -->
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8867843198260985" data-ad-slot="4965624947"
-	data-ad-format="auto" data-full-width-responsive="true"></ins>
 <script>
-	(adsbygoogle = window.adsbygoogle || []).push({});
+	if (window.matchMedia("( min-width: 1024px )").matches == true) {
+		document.write(
+			'<div class="adfit pc"><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-8867843198260985"data-ad-slot="4965624947"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});<\/script></div>'
+		);
+	}
+	if (window.matchMedia("( max-width: 768px )").matches == true) {
+		document.write(
+			'<div class="adfit mobile"><ins class="adsbygoogle" style="display:inline-block;width:320px;height:100px" data-ad-client="ca-pub-8867843198260985" data-ad-slot="7650439822"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});<\/script></div>'
+		);
+	}
 </script>
