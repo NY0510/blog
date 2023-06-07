@@ -150,6 +150,6 @@ apt update && apt dist-upgrade -y​
 
 이제 Proxmox 설치와 기본 설정이 끝났습니다.
 
-다음 글부터는 윈도우 / 리눅스 VM 생성과 RX 580을 이용한 GPU 패스쓰루에 대한 내용도 다뤄보려고 합니다.
+다음 글부터는 VM 생성과 RX 580을 이용한 GPU 패스스루에 대한 내용도 다뤄보려고 합니다.
 
 {{< img src="/posts/install-proxmox-on-home-server/images/proxmox-ve-4.png" title="Proxmox VE 설치 완료" >}}
