@@ -51,7 +51,7 @@ params:
     tocopen: true
 
     assets:
-        # disableHLJS: true # to disable highlight.js
+        disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
         favicon: "https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon.ico"
         favicon16x16: "https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon-16x16.png"
@@ -149,9 +149,9 @@ menu:
 pygmentsUseClasses: true
 markup:
     highlight:
-        noClasses: true
+        # noClasses: true
         # anchorLineNos: true
         # codeFences: true
         # guessSyntax: true
-        # lineNos: true
+        lineNos: true
         # style: monokai
