@@ -161,6 +161,10 @@
 	direction: ltr;
 }
 
+.post-content .highlight:not(table) > div {
+	background-color: transparent !important;
+}
+
 .post-content li > .highlight {
 	margin-inline-end: 0;
 }
