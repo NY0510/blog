@@ -193,7 +193,7 @@ arch -x86_64 gameportingtoolkit ~/Wine 경로 'C:\Program Files\Genshin Impact\G
 
 모든 와인 스레드를 종료한 뒤 다시 시도해보세요.
 
-```
+```bash
 killall -9 wineserver && killall -9 wine64-preloader
 ```
 
