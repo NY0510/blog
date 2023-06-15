@@ -210,5 +210,5 @@ WINEPREFIX=~/Wine 경로 `brew --prefix game-porting-toolkit`/bin/wine64 reg add
 비활성화
 
 ```bash
-WINEPREFIX=~~/Wine 경로 `brew --prefix game-porting-toolkit`/bin/wine64 reg add 'HKEY_CURRENT_USER\Software\Wine\Mac Driver' /v RetinaMode /t REG_SZ /d 'N' /f
+WINEPREFIX=~/Wine 경로 `brew --prefix game-porting-toolkit`/bin/wine64 reg add 'HKEY_CURRENT_USER\Software\Wine\Mac Driver' /v RetinaMode /t REG_SZ /d 'N' /f
 ```
