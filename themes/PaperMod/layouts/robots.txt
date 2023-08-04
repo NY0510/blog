@@ -7,3 +7,4 @@ Disallow: /
 Sitemap: {{ "sitemap.xml" | absURL }}
 Allow: /ads.txt
 Disallow: /tags
+Disallow: /categories
