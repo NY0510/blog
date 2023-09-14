@@ -10,7 +10,7 @@ buildExpired: false
 
 enableInlineShortcodes: true
 
-googleAnalytics: G-S51V5E7PLR
+googleAnalytics: G-HX48LG7RHQ
 
 minify:
     disableXML: true
