@@ -2,7 +2,7 @@
 title: "Proxmox GPU 패스스루 설정하기"
 date: 2023-05-10T09:22:05+09:00
 summary: "가상머신에서 GPU를 사용해보자 [2]"
-categories: ["강좌", "홈서버", "리눅스", "홈서버 구축"]
+categories: ["강좌", "홈서버"]
 comments: true
 tags:
     - Proxmox
