@@ -2,8 +2,9 @@
 title: "나만의 홈서버 구축하기"
 date: 2023-02-14T07:11:03+09:00
 summary: "24시간 돌아가는 나만의 서버! [1]"
-categories: ["강좌", "홈서버", "리눅스", "홈서버 구축"]
+categories: ["강좌", "홈서버"]
 comments: true
+draft: true
 tags:
     - Ubuntu
     - Proxmox

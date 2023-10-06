@@ -1,7 +1,7 @@
 ---
 title: "Plex Media Server 설치하기"
 summary: "설치와 기본 설정까지"
-categories: ["강좌", "라즈베리파이", "리눅스"]
+categories: ["강좌"]
 date: 2021-07-22
 comments: true
 tags:

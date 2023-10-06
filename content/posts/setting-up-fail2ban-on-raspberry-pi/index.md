@@ -1,7 +1,7 @@
 ---
 title: "Fail2ban으로 SSH 보안 강화하기"
 summary: "자동 IP 차단으로 SSH 보안을 강화하자 / 리눅스 서버 보안설정 [1]"
-categories: ["강좌", "라즈베리파이", "리눅스"]
+categories: ["강좌"]
 date: 2021-10-24
 comments: true
 tags:

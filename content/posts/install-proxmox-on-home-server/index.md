@@ -1,8 +1,8 @@
 ---
 title: "가상화 OS Proxmox 설치하기"
 date: 2023-04-19T16:12:05+09:00
-summary: "24시간 돌아가는 나만의 서버! [2]"
-categories: ["강좌", "홈서버", "리눅스", "홈서버 구축"]
+summary: "24시간 돌아가는 나만의 서버! [1]"
+categories: ["강좌", "홈서버"]
 comments: true
 tags:
     - Proxmox

@@ -1,7 +1,7 @@
 ---
 title: "Swap 설정하기"
 summary: "메모리가 부족하다면 디스크를 메모리처럼 사용하자"
-categories: ["강좌", "라즈베리파이", "리눅스"]
+categories: ["강좌"]
 date: 2021-07-24
 comments: true
 tags:

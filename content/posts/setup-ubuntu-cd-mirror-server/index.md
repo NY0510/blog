@@ -1,7 +1,7 @@
 ---
 title: "우분투 CD 미러서버 구축하기"
 summary: "미러서버를 구축하고 공식 미러로 등록해보자"
-categories: ["강좌", "리눅스"]
+categories: ["강좌"]
 date: 2022-11-26T19:25:29+09:00
 comments: true
 tags:

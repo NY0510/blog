@@ -2,11 +2,12 @@
 title: "Apple Game Porting Toolkit을 사용해서 M1 맥북에 원신 설치하기"
 summary: "윈도우용 원신을 맥북에서 돌려보자"
 date: 2023-06-13T10:46:25+09:00
-categories: ["강좌", "macOS"]
+categories: ["강좌"]
 comments: true
 tags:
     - Apple Game Porting Toolkit
-    - macOS Sonoma
+    - macOS
+    - Genshin Impact
 ---
 
 지난 6월 5일에 개최된 애플의 [WWDC 2023](https://youtu.be/GYkq9Rgoj8E)에서 `Apple Game Porting Toolkit`이 공개되었다.

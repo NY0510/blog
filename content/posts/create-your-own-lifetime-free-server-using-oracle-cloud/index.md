@@ -1,7 +1,7 @@
 ---
 title: "나만의 '평생' 무료 서버 만들기"
 summary: "오라클 클라우드 무료티어를 사용해 나만의 '평생' 무료 VPS를 만들어보자 [1]"
-categories: ["강좌", "오라클 클라우드", "리눅스"]
+categories: ["강좌"]
 date: 2022-01-31
 comments: true
 tags:

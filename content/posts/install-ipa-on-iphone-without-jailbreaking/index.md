@@ -1,9 +1,7 @@
 ---
 title: "Altstore을 사용해서 IPA 파일 설치하기 (탈옥 X)"
 date: 2023-07-16T17:30:16+09:00
-categories: ["macOS", "강좌"]
-comments: true
-draft: true
+categories: ["강좌"]
 tags:
     - IPA
     - Altstore
