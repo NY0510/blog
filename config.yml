@@ -10,7 +10,7 @@ buildExpired: false
 
 enableInlineShortcodes: true
 
-googleAnalytics: G-HX48LG7RHQ
+googleAnalytics: "G-HX48LG7RHQ"
 
 minify:
     disableXML: true
@@ -29,12 +29,12 @@ params:
     keywords: [Blog, 블로그, NY64, NY0510, 개발자, 개발블로그, 코딩, 김가온, 남냥, Devlog]
     author: NY64
     images: ["https://raw.githubusercontent.com/NY0510/blog/main/static/image/og.png"]
-    DateFormat: "January 2, 2006"
+    DateFormat: "2006년 01월 02일"
     defaultTheme: dark # dark, light
     disableThemeToggle: false
 
     ShowReadingTime: true
-    # ShowShareButtons: true
+    ShowShareButtons: false
     ShowPostNavLinks: true
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
@@ -85,13 +85,13 @@ params:
         Content: NY64의 무한삽질 블로그에 오신걸 환영합니다
 
     socialIcons:
-        - name: github
+        - name: custom_github
           url: "https://github.com/NY0510"
-        - name: discord
+        - name: custom_discord
           url: "https://discord.com/users/690148325604720660"
-        - name: buymeacoffee
+        - name: coffee
           url: "https://toss.me/nyny64"
-        - name: email
+        - name: custom_email
           url: "mailto:me@ny64.kr"
 
     analytics:
