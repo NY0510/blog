@@ -20,7 +20,7 @@ cover:
 
 VM을 생성하기 전에 먼저 ISO 파일을 다운로드 받아줍시다.
 
-저는 Ubuntu 22.04.3 LTS를 설치할 예정이므로 [Ubuntu 카카오 미러]에서 ISO 파일의 다운로드 링크를 복사해줍니다.
+저는 Ubuntu 22.04.3 LTS를 설치할 예정이므로 [Ubuntu 카카오 미러](https://mirror.kakao.com/ubuntu-releases/)에서 ISO 파일의 다운로드 링크를 복사해줍니다.
 
 {{< img src="/posts/creating-proxmox-vm/images/download-ubuntu-iso.png" title="Ubuntu ISO 파일 다운로드 링크 복사" >}}
 
