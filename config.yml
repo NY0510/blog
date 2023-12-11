@@ -1,6 +1,6 @@
 baseURL: "https://blog.ny64.kr"
 title: NY64의 무한삽질 블로그
-paginate: 10
+paginate: 15
 theme: PaperMod
 
 enableRobotsTXT: true
