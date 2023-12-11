@@ -92,3 +92,18 @@ div.toc > details[open] > summary {
 #menu .active {
 	padding-bottom: 0.2rem;
 }
+
+/* 로고 뱅글뱅글 */
+
+.logo a:hover {
+	animation: rotate 1.5s normal cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
