@@ -1,5 +1,7 @@
 #!/bin/bash
 
+api_key=$API_KEY  # GitHub Secrets에서 가져온 API 키
+
 commit_message=$(git log -1 --pretty=format:"%s")
 
 # 커밋 메시지가 'new post: '로 시작할 때만
@@ -11,7 +13,7 @@ if [[ $commit_message == "new post: "* ]]; then
           "url": "https://blog.ny64.kr/posts/'"$title"'",
           "type": "URL_UPDATED"
         }' \
-    "https://indexing.googleapis.com/v3/urlNotifications:publish?key=YOUR_API_KEY"
+    "https://indexing.googleapis.com/v3/urlNotifications:publish?key=$api_key"
 else
   echo "Not a new post. Do nothing."
 fi
