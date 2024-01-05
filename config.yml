@@ -31,7 +31,7 @@ params:
     images: ["https://raw.githubusercontent.com/NY0510/blog/main/static/image/og.png"]
     DateFormat: "2006년 01월 02일"
     defaultTheme: dark # dark, light
-    disableThemeToggle: false
+    disableThemeToggle: true
 
     ShowReadingTime: true
     ShowShareButtons: false

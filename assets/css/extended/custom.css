@@ -1,6 +1,6 @@
 /* 테마변경 트렌지션 */
 body {
-	transition: background-color 0.5s, color 0.5s;
+	transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 /* 타이틀과 하단 마진 */
@@ -94,9 +94,8 @@ div.toc > details[open] > summary {
 }
 
 /* 로고 뱅글뱅글 */
-
 .logo a:hover {
-	animation: rotate 1.5s normal cubic-bezier(0.25, 0.8, 0.25, 1);
+	animation: rotate 1.5s infinite cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 @keyframes rotate {
