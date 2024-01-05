@@ -13,3 +13,4 @@ if [[ $commit_message == "new post: "* ]]; then
         }' \
     "https://indexing.googleapis.com/v3/urlNotifications:publish?key=YOUR_API_KEY"
 fi
+ 
