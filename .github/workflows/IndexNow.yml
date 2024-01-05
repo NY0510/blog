@@ -15,5 +15,7 @@ jobs:
 
             - name: Run script on commit
               run: |
+                  ls -al
+                  ls -al .github
                   chmod +x .github/IndexNow.sh  
                   bash .github/IndexNow.sh
