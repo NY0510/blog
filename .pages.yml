@@ -4,6 +4,7 @@ content:
       type: collection
       path: content/posts
       subfolders: true
+      list: true
       view:
           fields: [title, date]
           sort: [date]
