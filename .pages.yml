@@ -1,0 +1,29 @@
+content:
+    - name: posts
+      label: 포스트
+      type: collection
+      path: content/posts
+      view:
+          fields: [title, draft, date]
+      fields:
+          - { name: title, label: 포스트 제목, type: string }
+          - { name: summary, label: 포스트 요약, type: string }
+          - { name: draft, label: 미개시, type: boolean, default: false }
+          - { name: date, label: 날짜, type: date }
+          - { name: body, label: 본문, type: rich-text }
+      filename: index.md
+
+    - name: config
+      label: 설정
+      path: config.yml
+      type: file
+      view:
+          fields: [config]
+      fields:
+          - name: params
+            label: 설정
+            type: object
+            fields:
+                - { name: title, label: 사이트 제목, type: string }
+                - { name: description, label: 사이트 설명, type: string }
+                - { name: author, label: 작성자, type: string }
