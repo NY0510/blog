@@ -23,6 +23,7 @@ content:
       type: file
       fields:
           - name: params
+            label: 기본 설정
             type: object
             fields:
                 - name: title
