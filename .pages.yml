@@ -4,7 +4,7 @@ content:
       type: collection
       path: content/posts
       view:
-          fields: [title, draft, date]
+          fields: [title, date]
           sort: [date]
       fields:
           - { name: title, label: 포스트 제목, type: string }
@@ -12,7 +12,7 @@ content:
           - { name: draft, label: 초안, type: boolean, default: false }
           - { name: comments, label: 댓글, type: boolean, default: true }
           - { name: date, label: 날짜, type: date }
-          - { name: cover, label: 미리보기 이미지, type: object, filds: [{ name: image, label: 이미지, type: string }, { name: relative, label: 반응형, type: boolean, default: true }] }
+          - { name: cover, label: 미리보기 이미지, type: object, fields: [{ name: image, label: 이미지, type: string }, { name: relative, label: 반응형, type: boolean, default: true }] }
           - { name: body, label: 본문, type: rich-text }
       filename: index.md
 
