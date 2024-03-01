@@ -13,6 +13,7 @@ content:
           - { name: comments, label: 댓글, type: boolean, default: true }
           - { name: date, label: 날짜, type: date }
           - { name: cover, label: 미리보기 이미지, type: object, fields: [{ name: image, label: 이미지, type: string }, { name: relative, label: 반응형, type: boolean, default: true }] }
+          - { name: image, label: 이미지, type: image }
           - { name: body, label: 본문, type: rich-text }
       filename: index.md
 
