@@ -21,7 +21,6 @@ content:
           fields: [config]
       fields:
           - name: params
-            label: 설정
             type: object
             fields:
                 - { name: title, label: 사이트 제목, type: string }
