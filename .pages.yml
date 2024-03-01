@@ -3,6 +3,7 @@ content:
       label: 포스트
       type: collection
       path: content/posts
+      subfolders: false
       view:
           fields: [title, date]
           sort: [date]
