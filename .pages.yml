@@ -1,7 +1,7 @@
 content:
     - name: posts
       label: 포스트
-      type: file
+      type: collection
       path: content/posts
       view:
           fields: [title, date]
