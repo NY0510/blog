@@ -16,7 +16,7 @@ content:
           - { name: comments, label: 댓글, type: boolean, default: true }
           - { name: cover, label: 미리보기 이미지, type: object, fields: [{ name: image, label: 이미지, type: string }, { name: relative, label: 반응형, type: boolean, default: true }] }
           - { name: body, label: 본문, type: rich-text }
-      filename: "{primary}/index.md"
+      filename: "aa{primary}/index.md"
 
     - name: config
       label: 블로그 설정
