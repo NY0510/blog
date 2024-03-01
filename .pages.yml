@@ -18,7 +18,7 @@ content:
       filename: index.md
 
     - name: config
-      label: 설정
+      label: 블로그 설정
       path: config.yml
       type: file
       fields:
@@ -29,3 +29,4 @@ content:
                 - { name: description, label: 사이트 설명, type: string }
                 - { name: author, label: 작성자, type: string }
                 - { name: keywords, label: 키워드, type: string }
+                - { name: images, label: 미리보기 이미지, type: string, pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$ }
