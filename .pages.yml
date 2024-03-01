@@ -25,8 +25,23 @@ content:
           - name: params
             type: object
             fields:
-                - { name: title, label: 사이트 제목, type: string }
-                - { name: description, label: 사이트 설명, type: string }
-                - { name: author, label: 작성자, type: string }
-                - { name: keywords, label: 키워드, type: string }
-                - { name: images, label: 미리보기 이미지, type: string, pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$ }
+                - name: title
+                  label: 사이트 제목
+                  type: string
+
+                - name: description
+                  label: 사이트 설명
+                  type: string
+
+                - name: author
+                  label: 작성자
+                  type: string
+
+                - name: keywords
+                  label: 키워드
+                  type: string
+
+                - name: images
+                  label: 미리보기 이미지
+                  type: string
+                  pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
