@@ -17,10 +17,8 @@ content:
       label: 설정
       path: config.yml
       type: file
-      view:
-          fields: [config]
+
       fields:
-          - { name: params.title, label: 사이트 제목, type: string }
           - name: params
             type: object
             fields:
