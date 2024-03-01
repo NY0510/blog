@@ -20,7 +20,9 @@ content:
       view:
           fields: [config]
       fields:
-          - type: object
+          - { name: params, label: 설정, type: object }
+          - name: params
+            type: object
             fields:
                 - { name: title, label: 사이트 제목, type: string }
                 - { name: description, label: 사이트 설명, type: string }
