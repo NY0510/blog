@@ -9,11 +9,11 @@ content:
       fields:
           - { name: title, label: 포스트 제목, type: string }
           - { name: summary, label: 포스트 요약, type: string }
+          - { name: date, label: 날짜, type: date }
+          - { name: tags, label: 태그, type: list }
           - { name: draft, label: 초안, type: boolean, default: false }
           - { name: comments, label: 댓글, type: boolean, default: true }
-          - { name: date, label: 날짜, type: date }
           - { name: cover, label: 미리보기 이미지, type: object, fields: [{ name: image, label: 이미지, type: string }, { name: relative, label: 반응형, type: boolean, default: true }] }
-          - { name: image, label: 이미지, type: image }
           - { name: body, label: 본문, type: rich-text }
       filename: index.md
 
