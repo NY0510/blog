@@ -39,7 +39,7 @@ content:
 
                 - name: keywords
                   label: 키워드
-                  type: string
+                  type: object
 
                 - name: images
                   label: 미리보기 이미지
