@@ -1,0 +1,49 @@
+content:
+    - name: posts
+      label: 포스트
+      type: collection
+      path: content/posts
+      subfolders: true
+      view:
+          fields: [title, date]
+          sort: [date]
+      fields:
+          - { name: title, label: 포스트 제목, type: string }
+          - { name: summary, label: 포스트 요약, type: string }
+          - { name: date, label: 날짜, type: date }
+          - { name: tags, label: 태그, type: string, list: true }
+          - { name: draft, label: 초안, type: boolean, default: false }
+          - { name: comments, label: 댓글, type: boolean, default: true }
+          - { name: cover, label: 미리보기 이미지, type: object, fields: [{ name: image, label: 이미지, type: string }, { name: relative, label: 반응형, type: boolean, default: true }] }
+          - { name: body, label: 본문, type: rich-text }
+      filename: "aa{primary}/index.md"
+
+    - name: config
+      label: 블로그 설정
+      path: config.yml
+      type: file
+      fields:
+          - name: params
+            label: 기본 설정
+            type: object
+            fields:
+                - name: title
+                  label: 사이트 제목
+                  type: string
+
+                - name: description
+                  label: 사이트 설명
+                  type: string
+
+                - name: author
+                  label: 작성자
+                  type: string
+
+                - name: keywords
+                  label: 키워드
+                  type: string
+
+                - name: images
+                  label: 미리보기 이미지
+                  type: string
+                  pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
