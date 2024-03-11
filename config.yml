@@ -56,8 +56,8 @@ params:
         favicon: "https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon.ico"
         favicon16x16: "https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon-16x16.png"
         favicon32x32: "https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon-32x32.png"
-        apple_touch_icon: https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/apple-touch-icon.png"
-        safari_pinned_tab: "https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/apple-touch-icon.png"
+        apple_touch_icon: https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/apple-icon.png"
+        safari_pinned_tab: "https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/apple-icon.png"
 
     label:
         text: "🌙"
