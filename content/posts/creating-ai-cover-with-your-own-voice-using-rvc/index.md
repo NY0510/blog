@@ -3,6 +3,7 @@ title: "RVC를 사용해서 내 목소리로 AI 커버 만들기"
 date: 2024-02-03T22:56:17+09:00
 comments: true
 categories: ["강좌"]
+draft: true
 summary: "RVC(Retrieval-based Voice Conversion)를 사용하여 내 목소리로 AI 커버를 만들어보자."
 tags:
     - AI

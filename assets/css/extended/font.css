@@ -5,6 +5,7 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@import url("https://cdn.jsdelivr.net/gh/toss/tossface/dist/tossface.css");
 
 body {
 	font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji",
