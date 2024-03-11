@@ -72,7 +72,7 @@ sudo systemctl restart tor
 
 ### Tor Hidden Service 주소 확인
 
-`/var/lib/tor/hidden_service/` 디렉토리에 `hostname` 파일이 생성되었습니다. 해당 파일을 열어보면 Tor 네트워크에 배포된 웹 서버의 주소가 나타납니다.
+`/var/lib/tor/hidden_service/` 디렉토리에 `hostname` 파일이 생성되었습니다.
 
 `xxxxxxxxxxxx.onion` 형태의 주소가 나타나는데, Tor 브라우저를 통해 해당 주소로 접속할 수 있습니다.
 
