@@ -4,7 +4,7 @@ paginate: 15
 theme: PaperMod
 
 enableRobotsTXT: true
-buildDrafts: true
+buildDrafts: false
 buildFuture: false
 buildExpired: false
 
