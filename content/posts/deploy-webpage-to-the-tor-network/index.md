@@ -3,7 +3,7 @@ title: "Tor 네트워크에 웹페이지 배포하기"
 date: 2024-03-12T00:36:55+09:00
 comments: false
 categories: ["강좌"]
-summary: "양파망에 웹 서비스를 배포해보자"
+summary: "🧅 양파망에 웹 서비스를 배포해보자"
 tags:
     - "Tor"
     - "Onion"
