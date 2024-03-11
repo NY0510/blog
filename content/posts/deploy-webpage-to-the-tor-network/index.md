@@ -9,6 +9,9 @@ tags:
     - "Onion"
     - "Hidden Service"
     - "Web Server"
+cover:
+    image: "/posts/deploy-webpage-to-the-tor-network/cover.jpg"
+    relative: true
 ---
 
 ## Tor 네트워크란
