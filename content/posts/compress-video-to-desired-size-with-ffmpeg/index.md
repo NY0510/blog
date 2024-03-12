@@ -57,4 +57,4 @@ ffmpeg_resize () {
 }
 ```
 
-이제 `ffmpeg_resize input.mp4 25`와 같이 사용하면 input.mp4를 25MB로 압축할 수 있습니다.
+이제 `ffmpeg_resize input.mp4 25`처럼 사용하면 input.mp4를 25MB로 압축할 수 있습니다.
