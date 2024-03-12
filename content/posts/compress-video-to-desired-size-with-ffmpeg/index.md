@@ -2,10 +2,12 @@
 title: "FFmpeg를 사용해서 영상을 원하는 크기로 압축하기"
 date: 2024-03-13T07:42:50+09:00
 comments: true
-categories: [""]
+categories: ["강좌"]
 summary: ""
 tags:
-    -
+    - FFmpeg
+    - Video
+    - Compression
 ---
 
 메일에 영상을 첨부하거나, SNS등에 업로드 하기 위해 영상을 제한된 크기로 압축해야 할 때가 있습니다.
