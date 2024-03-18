@@ -14,7 +14,7 @@ draft: false
 Iriun Webcam은 모바일 기기를 웹캠으로 사용할 수 있게 해주는 프로그램 입니다.
 이 프로그램은 MacOS에서 시스템 확장을 설치하게 되는데, 삭제하더라도 완전히 삭제되지 않는 경우가 있습니다.
 
-앱을 삭제했음에도 불구하고, 여전히 카메라 목록에 Iriun Webcam이 표시됩니다.
+앱을 삭제했음에도 불구하고, 여전히 카메라 목록에 Iriun Webcam이 찜찜하게 남아있습니다.
 
 {{< img src="/posts/how-to-completely-delee-iriun-webcam-from-macos/images/iriun-webcam.png" >}}
 
@@ -73,9 +73,8 @@ csrutil disable
 
 터미널에서 다음 명령어를 실행합니다.
 
-````fish
+```fish
 sudo csrutil clear
 ```
-````
 
 그 다음 Mac을 재부팅합니다.
