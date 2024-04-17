@@ -3,7 +3,7 @@ title: "GS반값택배 QR코드 얻기"
 date: 2024-04-16T10:22:39+09:00
 comments: true
 categories: ["강의", "잡다한거"]
-summary: ""
+summary: "운송장 번호만 가지고 QR코드 얻기"
 tags:
     - GS반값택배
     - 뻘짓
