@@ -44,7 +44,7 @@ Do you want authentication tokens to be time-based (y/n)
 
 이 정보는 다시 확인할 수 없으니, 안전한 곳에 기록해 줍시다.
 
-{{< img src="/posts/setting-up-ssh-otp-on-raspberry-pi/images/otp-setting.png" title="OTP 설정 화면" >}}
+![OTP 설정 화면](./images/otp-setting.png)
 
 ### OTP 등록하기
 
@@ -52,15 +52,15 @@ OTP 코드를 생성하기 위해서는 코드를 생성해주는 앱이 필요�
 
 [Apple App Store](https://apps.apple.com/us/app/google-authenticator/id388497605) 또는 [Google Play Store](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)에서 **Google Authenticator** 앱을 설치합니다.
 
-{{< img src="/posts/setting-up-ssh-otp-on-raspberry-pi/images/app-store.png" title="Google Authenticator 설치화면" >}}
+![Google Authenticator 설치화면](./images/app-store.png)
 
 앱을 실행하면 아래와 같은 화면이 나올텐데, **Scan QR code**를 눌러 아까 콘솔에 출력된 QR코드를 스캔합니다.
 
-{{< img src="/posts/setting-up-ssh-otp-on-raspberry-pi/images/otp-inapp-screen.png" title="Google Authenticator 실행 후 화면" >}}
+![Google Authenticator 실행 후 화면](./images/otp-inapp-screen.png)
 
 그러면 아래와 같이 OTP가 등록된 것을 확인할 수 있습니다
 
-{{< img src="/posts/setting-up-ssh-otp-on-raspberry-pi/images/otp-after-qr-scan-screen.png" title="Google Authenticator OTP 등록 후 화면" >}}
+![Google Authenticator OTP 등록 후 화면](./images/otp-after-qr-scan-screen.png)
 
 ### 서버측 설정
 

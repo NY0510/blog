@@ -105,11 +105,11 @@ sudo systemctl start nginx
 
 컴퓨트 > 인스턴트 > 자신의 인스턴트 상세페이지로 이동한 다음 서브넷을 클릭합니다.
 
-{{< img src="/posts/oracle-cloud-swap-setup-and-nginx-installation/images/image01.png" title="인스턴트 상세페이지" >}}
+![인스턴트 상세페이지](./images/image01.png)
 
 그런 다음 보안 목록을 클릭합니다.
 
-{{< img src="/posts/oracle-cloud-swap-setup-and-nginx-installation/images/image02.png" title="서브넷 상세페이지" >}}
+![서브넷 상세페이지](./images/image02.png)
 
 80번 포트에 대한 수신 규칙을 추가합니다.
 
@@ -120,7 +120,7 @@ sudo systemctl start nginx
 | 소스 포트 범위 | 80        |
 | 대상 포트 범위 | 80        |
 
-{{< img src="/posts/oracle-cloud-swap-setup-and-nginx-installation/images/image03.png" title="수신규칙 추가" >}}
+![수신규칙 추가](./images/image03.png)
 
 이제 클라우드 웹 패널에서 할 작업은 모두 끝났고, SSH로 돌아가 아래 명령어로 80번 포트를 열어줍시다.
 
@@ -132,6 +132,6 @@ sudo iptables -I INPUT 1 -p tcp --dport 80 -j ACCEPT
 
 아래처럼 Nginx 기본 페이지가 나오면 성공입니다.
 
-{{< img src="/posts/oracle-cloud-swap-setup-and-nginx-installation/images/image04.png" title="Welcome to the nginx!" >}}
+![Welcome to the nginx!](./images/image04.png)
 
 서버에 설치된 Nginx 웹서버를 파일서버, 정적 웹서버, 프록싱 서버 등 다양한 용도로 활용할 수 있습니다.

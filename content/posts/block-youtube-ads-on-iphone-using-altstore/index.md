@@ -21,7 +21,7 @@ uYouPlus를 사용하면 아이폰 및 아이패드에서 유튜브 광고 차�
 
 [깃허브 릴리즈 페이지](https://github.com/qnblackcat/uYouPlus/releases)에 들어가 최신 버전의 `uYouPlus_x.x.x_x.x.ipa` 파일을 다운로드 받습니다.
 
-{{< img src="/posts/block-youtube-ads-on-iphone-using-altstore/images/download-uYouPlus.png" title="uYouPlus IPA 파일 다운로드" >}}
+![uYouPlus IPA 파일 다운로드](./images/download-uYouPlus.png)
 
 ## IPA 파일 설치
 
@@ -35,7 +35,7 @@ Altstore 앱을 실행하고 My Apps 탭으로 이동합니다.
 
 상단의 로딩 바가 완료될 때까지 기다려주세요.
 
-{{< img src="/posts/block-youtube-ads-on-iphone-using-altstore/images/install-uYouPlus.jpeg" title="uYouPlus IPA 파일 설치" >}}
+![uYouPlus IPA 파일 설치](./images/install-uYouPlus.jpeg)
 
 ## 끝
 

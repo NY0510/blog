@@ -26,7 +26,7 @@ RVC(Retrieval-based Voice Conversion)는 AI를 사용한 음성 합성 기술입
 
 설치 후 녹음할 노래의 MR파일을 **드래그 앤 드롭** 또는 **파일 > 가져오기 > 오디오** 메뉴를 통해 불러옵니다.
 
-{{< img src="/posts/creating-ai-cover-with-your-own-voice-using-rvc/images/audacity_main.png" title="Audacity 메인 화면" >}}
+![Audacity 메인 화면](./images/audacity_main.png)
 
 그런 다음 좌측 상단의 녹음 버튼을 누르면 녹음이 시작됩니다.
 
@@ -38,11 +38,11 @@ RVC(Retrieval-based Voice Conversion)는 AI를 사용한 음성 합성 기술입
 
 > 녹음을 할 때는 최대한 조용한 환경에서 녹음하는 것이 좋습니다.
 
-{{< img src="/posts/creating-ai-cover-with-your-own-voice-using-rvc/images/audacity_recording.png" title="녹음 중인 Audacity 화면" >}}
+![녹음 중인 Audacity 화면](./images/audacity_recording.png)
 
 녹음을 완료한 뒤 음성만 녹음된 두번째 트랙을 선택하고 **파일 > 오디오 내보내기**를 클릭합니다.
 
-{{< img src="/posts/creating-ai-cover-with-your-own-voice-using-rvc/images/audacity_export.png" title="오디오 내보내기 화면" >}}
+![오디오 내보내기 화면](./images/audacity_export.png)
 
 **모노 채널 44.1kHz 16비트 WAV** 형식으로 저장합니다.
 

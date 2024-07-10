@@ -16,7 +16,7 @@ Iriun Webcam은 모바일 기기를 웹캠으로 사용할 수 있게 해주는 
 
 앱을 삭제했음에도 불구하고, 여전히 카메라 목록에 Iriun Webcam이 찜찜하게 남아있습니다.
 
-{{< img src="/posts/how-to-completely-delee-iriun-webcam-from-macos/images/iriun-webcam.png" >}}
+![](./images/iriun-webcam.png)
 
 이런 경우에는 시스템 확장을 수동으로 삭제해야 합니다.
 
@@ -28,7 +28,7 @@ Iriun Webcam은 모바일 기기를 웹캠으로 사용할 수 있게 해주는 
 systemextensionsctl list
 ```
 
-{{< img src="/posts/how-to-completely-delee-iriun-webcam-from-macos/images/systemextensionsctl-list.png" title="시스템 확장 목록" >}}
+![시스템 확장 목록](./images/systemextensionsctl-list.png)
 
 bundleID가 `com.iriun.macwebcam.extension`인 확장을 삭제하면 됩니다.
 

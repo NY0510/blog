@@ -61,7 +61,7 @@ service changed on disk. Run 'systemctl daemon-reload' to reload units.
 
 `ifconfig`등으로 라즈베리파이의 IP주소를 확인한 뒤 `http://IP:32400/web`으로 접속합니다.
 
-{{< img src="/posts/installing-plex-media-server-on-raspberry-pi/images/plex-login-page.png" title="플렉스 미디어 서버 로그인 페이지" >}}
+![플렉스 미디어 서버 로그인 페이지](./images/plex-login-page.png)
 
 이런 화면이 나오면 성공입니다.
 
@@ -69,7 +69,7 @@ service changed on disk. Run 'systemctl daemon-reload' to reload units.
 
 로그인해보면 해보면 아래와 같은 화면이 뜹니다.
 
-{{< img src="/posts/installing-plex-media-server-on-raspberry-pi/images/plex-main-page.png" title="플렉스 미디어 서버 메인 페이지" >}}
+![플렉스 미디어 서버 메인 페이지](./images/plex-main-page.png)
 
 여기 나오는 **영화, 뉴스, 팟캐스트** 등은 플렉스에서 기본으로 제공 해주는 미디어 들입니다.
 
@@ -142,25 +142,25 @@ drwxr-xr-x  3 root root 131072 May 29 11:38 'TV Shows'
 이제 다시 브라우저로 돌아와 마운트한 USB를 라이브러리로 추가해 줍시다.
 
 왼쪽 위 메뉴에서 **더보기**를 클릭한 후
-{{< img src="/posts/installing-plex-media-server-on-raspberry-pi/images/plex-setting-1.png" title="플렉스 미디어 서버 설정 1" >}}
+![플렉스 미디어 서버 설정 1](./images/plex-setting-1.png)
 
 **플러스 버튼**을 클릭
-{{< img src="/posts/installing-plex-media-server-on-raspberry-pi/images/plex-setting-2.png" title="플렉스 미디어 서버 설정 2" >}}
+![플렉스 미디어 서버 설정 2](./images/plex-setting-2.png)
 
 라이브러리 추가 창에서 원하는 **유형, 언어, 이름**을 설정하고 **폴더추가 버튼**을 누릅니다.
-{{< img src="/posts/installing-plex-media-server-on-raspberry-pi/images/plex-setting-3.png" title="플렉스 미디어 서버 설정 3" >}}
+![플렉스 미디어 서버 설정 3](./images/plex-setting-3.png)
 
 **미디어 폴더 찾아보기**를 클릭한 다음
-{{< img src="/posts/installing-plex-media-server-on-raspberry-pi/images/plex-setting-4.png" title="플렉스 미디어 서버 설정 4" >}}
+![플렉스 미디어 서버 설정 4](./images/plex-setting-4.png)
 
 **원하는 폴더(마운트한 폴더)** 를 선택하고
-{{< img src="/posts/installing-plex-media-server-on-raspberry-pi/images/plex-setting-5.png" title="플렉스 미디어 서버 설정 5" >}}
+![플렉스 미디어 서버 설정 5](./images/plex-setting-5.png)
 
 **라이브러리 추가**를 클릭해 라이브러리에 추가합니다.
-{{< img src="/posts/installing-plex-media-server-on-raspberry-pi/images/plex-setting-6.png" title="플렉스 미디어 서버 설정 6" >}}
+![플렉스 미디어 서버 설정 6](./images/plex-setting-6.png)
 
 그럼 아래 사진처럼 USB안에 있었던 영화들이 정리되어 표시되는걸 확인할 수 있습니다.
-{{< img src="/posts/installing-plex-media-server-on-raspberry-pi/images/plex-main-page after-setup.png" title="설정 후 플렉스 미디어 서버 메인 페이지" >}}
+![설정 후 플렉스 미디어 서버 메인 페이지](./images/plex-main-page after-setup.png)
 
 ---
 

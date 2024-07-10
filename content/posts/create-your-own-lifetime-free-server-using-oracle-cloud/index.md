@@ -44,7 +44,7 @@ VM 개수는 **오라클 클라우드**에선 2개까지 무료이고, **구글 
 
 ~~AWS를 비교 대상으로 삼고 있네요~~
 
-{{< img src="/posts/create-your-own-lifetime-free-server-using-oracle-cloud/images/oracle-cloud-main-img.png" title="오라클 클라우드 무료 조건" >}}
+![오라클 클라우드 무료 조건](./images/oracle-cloud-main-img.png)
 
 ### Oracle Cloud 계정 생성
 
@@ -62,7 +62,7 @@ VM 개수는 **오라클 클라우드**에선 2개까지 무료이고, **구글 
 
 회원가입을 완료한 뒤, [Oracle Cloud](https://cloud.oracle.com/)에 접속해 **VM 인스턴스 생성**을 클릭합니다.
 
-{{< img src="/posts/create-your-own-lifetime-free-server-using-oracle-cloud/images/make-vm.jpg" title="오라클 클라우드 메인 페이지" >}}
+![오라클 클라우드 메인 페이지](./images/make-vm.jpg)
 
 다음과 같이 **VM 인스턴스를** 생성합니다.
 
@@ -70,13 +70,13 @@ VM 개수는 **오라클 클라우드**에선 2개까지 무료이고, **구글 
 2. OS 선택 (Oracle Linux 기본, Ubuntu 선택 가능)
 3. SSH 키 저장
 
-{{< img src="/posts/create-your-own-lifetime-free-server-using-oracle-cloud/images/make-vm-2.jpg" title="VM Instance 생성" >}}
+![VM Instance 생성](./images/make-vm-2.jpg)
 
 ## 생성 확인 및 SSH 접속
 
 VM 생성이 완료되었다면 [여기](https://cloud.oracle.com/compute/instances)에서 VM 정보를 확인할 수 있습니다.
 
-{{< img src="/posts/create-your-own-lifetime-free-server-using-oracle-cloud/images/vm-info.png" title="VM 정보 확인" >}}
+![VM 정보 확인](./images/vm-info.png)
 
 VM Instance를 생성할 때 다운받았던 **SSH 키**를 이용해 **인스턴스 엑세스 항목**에 있는 IP로 접속합니다.
 

@@ -16,7 +16,7 @@ Valve에서 개발한 Proton과 비슷한 역할을 하는 번역 프레임워�
 
 Wine과 애플 자체의 D3DMetal을 결합하여 윈도우의 DirectX 11 / 12를 Metal로 번역해 실리콘 맥에서 실행되도록 번역해줍니다.
 
-{{< img src="/posts/installing-genshin-impact-on-the-m1-macbook-using-apple-game-porting-toolkit/images/gamming-mac-meme.png" title="게이밍 맥" >}}
+![게이밍 맥](./images/gamming-mac-meme.png)
 
 > ~~맥 사용자들의 오랜 숙원이었던 게임 부분에 대한 지원이 드디어 이루어졌네요~~
 >
@@ -32,7 +32,7 @@ macOS Ventura 이상이면 지원이 되긴 하지만, 스팀 로그인과 관�
 
 [Apple Developer Downloads 웹 페이지](https://developer.apple.com/downloads)에서 **Command Line Tools for Xcode 15 beta**를 다운로드 한 후 설치합니다.
 
-{{< img src="/posts/installing-genshin-impact-on-the-m1-macbook-using-apple-game-porting-toolkit/images/command-line-tools-for-xcode-15-beta-download.png" title="Command Line Tools for Xcode 15 beta 다운로드" >}}
+![Command Line Tools for Xcode 15 beta 다운로드](./images/command-line-tools-for-xcode-15-beta-download.png)
 
 만약 Xcode 14와 같이 이전 버전의 Xcode가 설치되어 있다면 제거해야 합니다.
 
@@ -40,7 +40,7 @@ macOS Ventura 이상이면 지원이 되긴 하지만, 스팀 로그인과 관�
 
 **Game Porting Toolkit beta**를 다운로드 한 후 `.dmg` 파일을 연 다음 `.pkg` 파일을 실행합니다.
 
-{{< img src="/posts/installing-genshin-impact-on-the-m1-macbook-using-apple-game-porting-toolkit/images/game-porting-toolkit-beta-downlnoad.png" title="Game Porting Toolkit beta 다운로드" >}}
+![Game Porting Toolkit beta 다운로드](./images/game-porting-toolkit-beta-downlnoad.png)
 
 ### Homebrew
 
@@ -137,7 +137,7 @@ WINEPREFIX=~/Wine `brew --prefix game-porting-toolkit`/bin/wine64 winecfg
 
 하단의 윈도우 버전을 윈도우 10으로 설정한 뒤 OK를 눌러 저장합니다.
 
-{{< img src="/posts/installing-genshin-impact-on-the-m1-macbook-using-apple-game-porting-toolkit/images/winecfg.png" title="Wine 설정창" width=300px >}}
+![Wine 설정창](./images/winecfg.png)
 
 ## 원신 설치
 
@@ -167,7 +167,7 @@ gameportingtoolkit ~/Wine 경로 'C:\Program Files\Genshin Impact\Genshin Impact
 
 오토메이터(Automator) 앱을 실행한 뒤 응용 프로그램(Application)을 선택합니다.
 
-{{< img src="/posts/installing-genshin-impact-on-the-m1-macbook-using-apple-game-porting-toolkit/images/automator-1.png" title="Automator 실행 및 새로운 응용 프로그램 생성" width=300px >}}
+![Automator 실행 및 새로운 응용 프로그램 생성](./images/automator-1.png)
 
 좌측 상단 검색창에 셸 스크립트 실행(Run Shell Script)를 검색한 뒤 오른쪽 공간으로 드래그해준 뒤 아래 내용을 붙여넣기 합니다.
 
@@ -178,15 +178,15 @@ export PATH="/usr/local/bin:${PATH}"
 arch -x86_64 gameportingtoolkit ~/Wine 경로 'C:\Program Files\Genshin Impact\Genshin Impact game\GenshinImpact.exe'
 ```
 
-{{< img src="/posts/installing-genshin-impact-on-the-m1-macbook-using-apple-game-porting-toolkit/images/automator-2.png" title="쉘 스크립트 실행 추가" width=300px >}}
+![쉘 스크립트 실행 추가](./images/automator-2.png)
 
 마지막으로 `Command + S`를 눌러 응용 프로그램(Application) 폴더에 저장해줍니다.
 
-{{< img src="/posts/installing-genshin-impact-on-the-m1-macbook-using-apple-game-porting-toolkit/images/automator-3.png" title="응용 프로그램 폴더에 저장" width=300px >}}
+![응용 프로그램 폴더에 저장](./images/automator-3.png)
 
 런치패드를 열어보면 잘 추가된 것을 볼 수 있습니다.
 
-{{< img src="/posts/installing-genshin-impact-on-the-m1-macbook-using-apple-game-porting-toolkit/images/automator-4.png" title="저장된 파일" width=300px >}}
+![저장된 파일](./images/automator-4.png)
 
 ## 문제 해결
 

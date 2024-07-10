@@ -17,7 +17,7 @@ tags:
 
 노트북(Asus 비보북 14)에 우분투를 설치하고 보니, 아래와 같이 **No Wifi Adapter Found** 라는 메세지와 함께 와이파이 어댑터를 찾지 못하고 있었습니다.
 
-{{< img src="/posts/install-ubuntu-on-asus-vivobook-14/images/ubuntu-no-wifi.png" title="No Wifi Adapter Found" >}}
+![No Wifi Adapter Found](./images/ubuntu-no-wifi.png)
 
 이 문제를 해결하기 위해 몇 주 동안 삽질을 해보았지만 결국 해결하지 못해서 할 수 없이 다이소에서 산 5,000원짜리 USB형 WiFi 동글을 사용해 인터넷을 사용하던 중이었습니다.
 
@@ -33,7 +33,7 @@ tags:
 
 현재 사용할 수 없는 설정 변경을 클릭하고, 종료 설정에 빠른 시작 켜기 체크를 해제합니다.
 
-{{< img src="/posts/install-ubuntu-on-asus-vivobook-14/images/windows-setting.png" title="윈도우 빠른시작 비활성화" >}}
+![윈도우 빠른시작 비활성화](./images/windows-setting.png)
 
 이제 다시 우분투로 부팅하면 와이파이가 작동합니다.
 

@@ -21,8 +21,8 @@ tags:
 ## 점퍼선 연결
 
 안테나 역할을 할 점퍼선을 **GPIO 4번핀**(7번째 핀) 에 연결합니다.
-{{< img src="https://docs.microsoft.com/en-us/dotnet/iot/media/gpio-pinout-diagram.png" title="GPIO 핀맵" >}}
-{{< img src="/posts/create-an-fm-radio-station-with-raspberry-pi/images/raspberrypi-gpio-pin.jpg" title="GPIO 핀 연결" >}}
+![GPIO 핀맵](https://docs.microsoft.com/en-us/dotnet/iot/media/gpio-pinout-diagram.png)
+![GPIO 핀 연결](/posts/create-an-fm-radio-station-with-raspberry-pi/images/raspberrypi-gpio-pin.jpg)
 
 ## 프로그램 설치
 
@@ -63,4 +63,4 @@ sudo ./fm_transmitter -f 97.7 -r wav파일.wav
 
 위처럼 실행한 다음 라디오로 주파수를 맞춰보면 라디오에서 음악이 재생되는 것을 확인할 수 있습니다.
 
-{{< img src="/posts/create-an-fm-radio-station-with-raspberry-pi/images/radio_app.jpg" title="라디오 앱" >}}
+![라디오 송출](/posts/create-an-fm-radio-station-with-raspberry-pi/images/radio_app.jpg)

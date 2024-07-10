@@ -43,13 +43,13 @@ Altstore는 **탈옥 없이** 사용자의 애플ID를 이용해서 iOS앱(ipa �
 
 [Altstore 웹사이트](https://altstore.io/)에 접속해서 운영체제에 맞게 설치 파일을 다운로드 해주세요.
 
-{{< img src="/posts/install-ipa-on-iphone-without-jailbreaking/images/altstore-download.png" title="Altstore 다운로드" >}}
+![Altstore 다운로드](./images/altstore-download.png)
 
 다운로드 한 `AltInstaller.zip` 파일을 압축 해제한 뒤 `Setup.exe`를 실행해서 설치해주세요.
 
 설치가 모두 끝났다면, 윈도우 검색창에 `AltServer`를 검색한 뒤 **관리자 권한으로 실행**을 눌러주세요.
 
-{{< img src="/posts/install-ipa-on-iphone-without-jailbreaking/images/altstore-run.png" title="Altstore 실행" >}}
+![Altstore 실행](./images/altstore-run.png)
 
 ### 3. iPhone 연결
 
@@ -57,17 +57,17 @@ iPhone과 컴퓨터를 케이블을 사용해서 연결하고 잠금 해제해 �
 
 iTunes를 실행하고 하단의 Wi-Fi를 통해 이 기기 동기화를 체크해 줍니다.
 
-{{< img src="/posts/install-ipa-on-iphone-without-jailbreaking/images/itunes-wifisync.png" title="iTunes 실행" >}}
+![iTunes 실행](./images/itunes-wifisync.png)
 
 ### 4. iPhone에 Altstore 설치
 
 작업표시줄의 Altstore 아이콘을 우클릭한 뒤 설치할 기기를 선택해주세요.
 
-{{< img src="/posts/install-ipa-on-iphone-without-jailbreaking/images/install-altstore-on-iphone.png" title="iPhone에 Altstore 설치" >}}
+![iPhone에 Altstore 설치](./images/install-altstore-on-iphone.png)
 
 사용하고 있는 애플ID로 로그인 해주세요.
 
-{{< img src="/posts/install-ipa-on-iphone-without-jailbreaking/images/install-altstore-on-iphone-2.png" title="iPhone에 Altstore 설치" >}}
+![iPhone에 Altstore 설치](./images/install-altstore-on-iphone-2.png)
 
 이제 잠시 기다리면 Altstore가 설치됩니다.
 
@@ -75,7 +75,7 @@ iTunes를 실행하고 하단의 Wi-Fi를 통해 이 기기 동기화를 체크�
 
 Altstore가 설치되었다면 설정 - 일반 - 프로파일 및 기기 관리 메뉴에 들어간 뒤 신뢰를 눌러주세요.
 
-{{< img src="/posts/install-ipa-on-iphone-without-jailbreaking/images/iphone-setting.png" title="iPhone 설정" >}}
+![iPhone 설정](./images/iphone-setting.png)
 
 만약 iOS 16 이상을 사용중이라면 설정 - 개인정보 보호 및 보안 - 개발자 모드를 활성화해 준 뒤 아이폰을 재부팅 해주세요.
 
@@ -89,13 +89,13 @@ Altstore가 설치되었다면 설정 - 일반 - 프로파일 및 기기 관리 
 
 [Altstore 웹사이트](https://altstore.io/)에 접속해서 운영체제에 맞게 설치 파일을 다운로드 해주세요.
 
-{{< img src="/posts/install-ipa-on-iphone-without-jailbreaking/images/altstore-download.png" title="Altstore 다운로드" >}}
+![Altstore 다운로드](./images/altstore-download.png)
 
 다운로드 한 `altserver.zip` 파일을 압축 해제한 뒤 `AltServer.app`을 애플리케이션 폴더로 이동해 주세요.
 
 설치된 AltServer을 실행하면 상단바에 아이콘이 나오는 것을 확인할 수 있습니다.
 
-{{< img src="/posts/install-ipa-on-iphone-without-jailbreaking/images/altstore-run-mac.png" title="Altstore 실행" >}}
+![Altstore 실행](./images/altstore-run-mac.png)
 
 ### 2. iPhone 연결
 
@@ -105,7 +105,7 @@ iPhone과 컴퓨터를 케이블을 사용해서 연결하고 잠금 해제해 �
 
 ### 3. 메일 플러그인 설치
 
-{{< img src="/posts/install-ipa-on-iphone-without-jailbreaking/images/altstore-run-mac.png" title="Altstore 실행" >}}
+![Altstore 실행](./images/altstore-run-mac.png)
 
 상단바의 AltServer 아이콘을 클릭한 뒤 Install Mail Plug-in을 클릭합니다.
 
@@ -115,11 +115,11 @@ iPhone과 컴퓨터를 케이블을 사용해서 연결하고 잠금 해제해 �
 
 `command(⌘) + ,`를 눌러 설정을 열은 다음 하단에 플러그인 관리를 클릭해 주세요.
 
-{{< img src="/posts/install-ipa-on-iphone-without-jailbreaking/images/mail-1.png" title="메일 플러그인 설정" >}}
+![메일 플러그인 설정](./images/mail-1.png)
 
 `AltPlugin.mailbundle`을 활성화해 주세요.
 
-{{< img src="/posts/install-ipa-on-iphone-without-jailbreaking/images/mail-2.png" title="메일 플러그인 활성화" >}}
+![메일 플러그인 활성화](./images/mail-2.png)
 
 팝업이 나오면 매일 앱을 재시작 해주세요.
 
@@ -127,11 +127,11 @@ iPhone과 컴퓨터를 케이블을 사용해서 연결하고 잠금 해제해 �
 
 상단 메뉴의 Altstore 아이콘을 우클릭한 뒤 설치할 기기를 선택해 주세요.
 
-{{< img src="/posts/install-ipa-on-iphone-without-jailbreaking/images/install-altstore-on-iphone-mac-2.png" title="iPhone에 Altstore 설치" >}}
+![iPhone에 Altstore 설치](./images/install-altstore-on-iphone-mac-2.png)
 
 사용하고 있는 애플ID로 로그인 해주세요.
 
-{{< img src="/posts/install-ipa-on-iphone-without-jailbreaking/images/install-altstore-on-iphone-mac.png" title="iPhone에 Altstore 설치" >}}
+![iPhone에 Altstore 설치](./images/install-altstore-on-iphone-mac.png)
 
 이제 잠시 기다리면 Altstore가 설치됩니다.
 

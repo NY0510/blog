@@ -18,24 +18,24 @@ cover:
 ## 아이콘 되돌리기
 
 먼저 iOS에 기본으로 내장되어 있는 단축어 앱을 실행해 주세요.
-{{< img src="/posts/return-the-x-logo-to-twitter/images/shortcut.jpg" title="단축어 앱" >}}
+![단축어 앱](./images/shortcut.jpg)
 
 우측 상단의 `+` 버튼을 눌러 새로운 단축어를 생성해주세요.
-{{< img src="/posts/return-the-x-logo-to-twitter/images/shortcut-01.jpg" title="새로운 단축어" >}}
+![새로운 단축어](./images/shortcut-01.jpg)
 
 `동작 추가` 버튼을 누른 뒤 `앱 열기` 항목을 선택해주세요.
-{{< img src="/posts/return-the-x-logo-to-twitter/images/shortcut-02.jpg" title="앱 열기 추가" >}}
+![앱 열기 추가](./images/shortcut-02.jpg)
 
 X 앱을 선택해주세요.
-{{< img src="/posts/return-the-x-logo-to-twitter/images/shortcut-03.jpg" title="X 앱 선택" >}}
+![X 앱 선택](./images/shortcut-03.jpg)
 
 마지막으로 하단 중앙의 정보 버튼을 누른 뒤 `홈 화면에 추가`를 선택해주세요.
 
 아이콘과 이름을 트위터로 변경해주시면 됩니다.
-{{< img src="/posts/return-the-x-logo-to-twitter/images/shortcut-04.jpg" title="홈 화면에 추가" >}}
+![홈 화면에 추가](./images/shortcut-04.jpg)
 
 이제 홈 화면에 있는 트위터 아이콘을 누르면 X 앱이 실행되는 것을 확인할 수 있습니다.
-{{< img src="/posts/return-the-x-logo-to-twitter/images/video.gif" title="X 아이콘 되돌리기 완료" >}}
+![X 아이콘 되돌리기 완료](./images/video.gif)
 
 ## 참고
 

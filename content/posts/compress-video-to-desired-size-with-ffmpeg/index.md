@@ -39,7 +39,7 @@ ffmpeg -i "$file" -b:v $video_bitrate -maxrate:v $video_bitrate -bufsize:v $(( $
 
 116MB였던 영상이 목표 크기인 25MB를 넘지 않게 압축된 것을 확인할 수 있습니다.
 
-{{< img src="/posts/compress-video-to-desired-size-with-ffmpeg/images/filesize.png" title="압축 전/후" >}}
+![압축 전/후](./images/filesize.png)
 
 이를 좀 더 사용하기 쉽도록 함수로 만들어 봅시다.
 

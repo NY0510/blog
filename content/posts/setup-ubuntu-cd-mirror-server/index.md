@@ -147,15 +147,15 @@ crontab -e
 
 우측 상단의 **Register a new mirror**를 클릭합니다.
 
-{{< img src="/posts/setup-ubuntu-cd-mirror-server/images/image01.png" title="Register a new mirror 클릭" >}}
+![Register a new mirror 클릭](./images/image01.png)
 
 미러 서버에 대한 정보를 입력하고 하단의 **Register Mirror**를 클릭합니다.
 
-{{< img src="/posts/setup-ubuntu-cd-mirror-server/images/image02.png" title="미러 서버 정보 입력" >}}
+![미러 서버 정보 입력](./images/image02.png)
 
 몇일 후 확인해보면 공식 미러 리스트에 등록된 것을 확인할 수 있습니다.
 
-{{< img src="/posts/setup-ubuntu-cd-mirror-server/images/image03.png" title="대한민국 공식 미러 리스트" >}}
+![대한민국 공식 미러 리스트](./images/image03.png)
 
 > 미러 서버에 접속이 불가능하거나, 동기화가 정상적으로 이루어지지 않는다고 판단되면 미러 리스트에서 제외될 수 있습니다.
 

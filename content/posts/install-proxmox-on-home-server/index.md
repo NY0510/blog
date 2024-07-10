@@ -37,7 +37,7 @@ Proxmox VE 7.0 기준 최소 시스템 요구 사항은 아래와 같습니다.
 
 먼저 [Proxmox 다운로드 페이지](https://www.proxmox.com/en/downloads)에 접속하여 ISO 파일을 다운받아 줍니다.
 
-{{< img src="/posts/install-proxmox-on-home-server/images/proxmox-iso-download.png" title="Proxmox ISO 다운로드" >}}
+![Proxmox ISO 다운로드](./images/proxmox-iso-download.png)
 
 그다음 이미지 버닝 툴([Rufus](https://rufus.ie), [balenEetcher](https://www.balena.io/etcher) 등등..)을 사용해서 다운받은 ISO 파일을 USB에 구워줍니다.
 
@@ -47,35 +47,35 @@ USB를 설치할 PC에 연결하고 부팅 순서를 변경하여 USB로 부팅�
 
 첫 번째 메뉴인 `Install Proxmox VE`를 선택합니다.
 
-{{< img src="/posts/install-proxmox-on-home-server/images/proxmox-install-1.png" title="부팅 첫 화면" >}}
+![부팅 첫 화면](./images/proxmox-install-1.png)
 
 Proxmox 이용약관에 동의해줍니다.
 
 오른쪽 아래 `I agree`를 클릭해주세요.
 
-{{< img src="/posts/install-proxmox-on-home-server/images/proxmox-install-2.png" title="EULA 동의 화면" >}}
+![EULA 동의 화면](./images/proxmox-install-2.png)
 
 설치할 디스크 또는 파티션을 선택해줍니다.
 
-{{< img src="/posts/install-proxmox-on-home-server/images/proxmox-install-3.png" title="설치 디스크 선택 화면" >}}
+![설치 디스크 선택 화면](./images/proxmox-install-3.png)
 
 사용할 타임존과 키보드 레이이웃을 선택해줍니다.
 
-{{< img src="/posts/install-proxmox-on-home-server/images/proxmox-install-4.png" title="타임좀 및 키보드 레이아웃 선택 화면" >}}
+![타임좀 및 키보드 레이아웃 선택 화면](./images/proxmox-install-4.png)
 
 root 계정의 비밀번호를 입력합니다.
 
 되도록 강력한 비밀번호를 사용해주세요.
 
-{{< img src="/posts/install-proxmox-on-home-server/images/proxmox-install-5.png" title="root 게정 비밀번호 입력 화면" >}}
+![root 게정 비밀번호 입력 화면](./images/proxmox-install-5.png)
 
 최종 설정값을 한 번 더 확인한 뒤 `Install`을 눌러주세요.
 
-{{< img src="/posts/install-proxmox-on-home-server/images/proxmox-install-6.png" title="최종 설정값 확인 화면" >}}
+![최종 설정값 확인 화면](./images/proxmox-install-6.png)
 
 설치를 하고 나면 아래와 같이 웹 콘솔에 로그인하라고 나옵니다.
 
-{{< img src="/posts/install-proxmox-on-home-server/images/proxmox-install-7.png" title="설치 완료 화면" >}}
+![설치 완료 화면](./images/proxmox-install-7.png)
 
 ## Proxmox 설정
 
@@ -85,7 +85,7 @@ root 계정의 비밀번호를 입력합니다.
 
 앞서 위에서 설정해주었던 계정으로 로그인해 줍니다.
 
-{{< img src="/posts/install-proxmox-on-home-server/images/proxmox-ve-1.png" title="Proxmox VE 로그인" >}}
+![Proxmox VE 로그인](./images/proxmox-ve-1.png)
 
 ### apt update 오류 해결
 
@@ -101,7 +101,7 @@ E: Failed to fetch https://enterprise.proxmox.com/debian/pve/dists/bullseye/InRe
 
 웹 콘솔의 좌측 메뉴에서 데이터센터(Datacenter) -> 서버 호스트네임 -> 쉘(Shell) 메뉴로 들어갑니다.
 
-{{< img src="/posts/install-proxmox-on-home-server/images/proxmox-ve-2.png" title="웹 콘솔에서 쉘 접속" >}}
+![웹 콘솔에서 쉘 접속](./images/proxmox-ve-2.png)
 
 그다음 nano 편집기를 사용해 파일을 수정해줍니다.
 
@@ -124,7 +124,7 @@ deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription
 
 하지만 우리는 개인적으로 쓸 것이기 때문에 파일을 직접 수정해서 해당 팝업을 없애줍시다.
 
-{{< img src="/posts/install-proxmox-on-home-server/images/proxmox-ve-3.png" title="라이센스 구독 팝업" >}}
+![라이센스 구독 팝업](./images/proxmox-ve-3.png)
 
 직접 Proxmox의 파일을 수정하는 방법도 있겠지만 사용하기 쉽게 만들어진 쉘 스크립트를 사용하겠습니다.
 
@@ -152,4 +152,4 @@ apt update && apt dist-upgrade -y​
 
 다음 글부터는 VM 생성과 RX 580을 이용한 GPU 패스스루에 대한 내용도 다뤄보려고 합니다.
 
-{{< img src="/posts/install-proxmox-on-home-server/images/proxmox-ve-4.png" title="Proxmox VE 설치 완료" >}}
+![Proxmox VE 설치 완료](./images/proxmox-ve-4.png)

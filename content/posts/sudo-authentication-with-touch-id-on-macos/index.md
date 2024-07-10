@@ -39,7 +39,7 @@ curl -sL git.io/sudo-touchid | sh
 
 Touch ID를 사용할 수 없는 경우 `Use password...` 버튼을 눌러 비밀번호로 인증할 수 있습니다.
 
-{{< img src="/posts/sudo-authentication-with-touch-id-on-macos/images/sudo-touchid.png" title="sudo 인증에 Touch ID 사용" >}}
+![sudo 인증에 Touch ID 사용](./images/sudo-touchid.png)
 
 ## 제거
 
