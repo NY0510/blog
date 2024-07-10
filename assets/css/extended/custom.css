@@ -11,6 +11,7 @@ body {
 /* 이미지 캡션 상단 마진 */
 .figure {
 	margin-bottom: 0 !important;
+	max-width: 80%;
 }
 
 /* 유튜브 임베드 모서리 둥글게 */
