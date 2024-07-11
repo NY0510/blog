@@ -30,8 +30,12 @@ params:
     author: NY64
     images: ["https://raw.githubusercontent.com/NY0510/blog/main/static/image/og.png"]
     DateFormat: "2006년 01월 02일"
+    footer:
+        text: ""
+        hideCopyright: false
     defaultTheme: dark # dark, light
     disableThemeToggle: true
+    displayFullLangName: "Korean"
 
     ShowReadingTime: true
     ShowShareButtons: false

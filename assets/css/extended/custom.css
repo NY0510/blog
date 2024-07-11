@@ -8,10 +8,13 @@ body {
 	margin-bottom: 0;
 }
 
-/* 이미지 캡션 상단 마진 */
-.figure {
+/* 이미지 캡션 */
+img.figure {
 	margin-bottom: 0 !important;
 	/* max-width: 0%; */
+}
+figure {
+	margin-bottom: 40px !important;
 }
 
 /* 유튜브 임베드 모서리 둥글게 */
