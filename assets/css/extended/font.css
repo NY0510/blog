@@ -15,7 +15,7 @@ body {
 }
 
 code {
-	font-family: "D2Coding";
+	font-family: "D2Coding" !important;
 }
 
 .tossface {
