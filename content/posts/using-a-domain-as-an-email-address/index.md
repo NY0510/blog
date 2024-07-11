@@ -75,3 +75,13 @@ SMTP 서버에는 `smtp.gmail.com`
 
 비밀번호에는 앞서 발급한 앱 비밀번호를 입력합니다.
 ![](./images/gmail-smtp-3.png)
+
+해당 메일 주소로 온 승인 이메일의 URL을 클릭하여 승인을 완료하면 설정이 완료됩니다.
+
+## 기본 발신 주소 설정하기
+
+이제 Gmail에서 메일을 보낼 때 이메일 주소를 선택할 수 있습니다.
+![](./images/gmail-send-as.png)
+
+[Gmail 설정](https://mail.google.com/mail/u/0/#settings/accounts) 페이지로 이동하여 기본으로 설정을 클릭하면 앞으로는 기본값이 변경됩니다.
+![](./images/gmail-send-as-2.png)
