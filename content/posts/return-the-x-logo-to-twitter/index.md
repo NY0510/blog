@@ -9,7 +9,7 @@ tags:
     - Twitter
     - Elon Musk
 cover:
-    image: "./images/cover.jpg"
+    image: "./images/return-the-x-logo-to-twitter.jpg"
     relative: true
 ---
 

@@ -8,7 +8,7 @@ tags:
     - Proxmox
     - Home Server
 cover:
-    image: "./images/cover.jpg"
+    image: "./images/creating-proxmox-vm.jpg"
     relative: true
 ---
 
