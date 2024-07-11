@@ -8,7 +8,7 @@ tags:
     - Proxmox
     - Home Server
 cover:
-    image: "./images/install-proxmox-on-home-server.jpg"
+    image: "images/install-proxmox-on-home-server.jpg"
     relative: true
 ---
 

@@ -10,7 +10,7 @@ tags:
     - "Hidden Service"
     - "Web Server"
 cover:
-    image: "./images/deploy-webpage-to-the-tor-network.jpg"
+    image: "images/deploy-webpage-to-the-tor-network.jpg"
     relative: true
 ---
 
