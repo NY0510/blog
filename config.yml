@@ -9,7 +9,6 @@ buildFuture: false
 buildExpired: false
 
 enableInlineShortcodes: true
-
 googleAnalytics: "G-HX48LG7RHQ"
 
 minify:
@@ -35,7 +34,6 @@ params:
         hideCopyright: false
     defaultTheme: dark # dark, light
     disableThemeToggle: true
-    displayFullLangName: "Korean"
 
     ShowReadingTime: true
     ShowShareButtons: false
@@ -127,28 +125,6 @@ params:
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary", "content"]
 
-menu:
-    main:
-        - identifier: search
-          name: 검색
-          url: /search
-          weight: 1
-
-        - identifier: categories
-          name: 카테고리
-          url: /categories
-          weight: 2
-
-        - identifier: tags
-          name: 태그
-          url: /tags
-          weight: 3
-
-        - identifier: archives
-          name: 아카이브
-          url: /archives
-          weight: 4
-
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: false
 markup:
@@ -159,3 +135,37 @@ markup:
         guessSyntax: true
         lineNos: true
         style: dracula
+
+defaultContentLanguage: "ko"
+languages:
+    ko:
+        languageName: "Korean"
+        weight: 1
+        taxonomies:
+            category: 카테고리
+            tag: 태그
+            series: 시리즈
+        menu:
+            main:
+                - identifier: search
+                  name: 검색
+                  url: /search
+                  weight: 1
+
+                - identifier: categories
+                  name: 카테고리
+                  url: /categories
+                  weight: 2
+
+                - identifier: tags
+                  name: 태그
+                  url: /tags
+                  weight: 3
+
+                - identifier: archives
+                  name: 아카이브
+                  url: /archives
+                  weight: 4
+
+                # - name: WiKi
+                #   url: https://github.com/adityatelange/hugo-PaperMod/wiki/
