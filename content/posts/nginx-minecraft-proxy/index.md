@@ -57,4 +57,4 @@ stream {
 
 저장하고 나서 `sudo nginx -s reload` 명령어로 Nginx를 재시작합니다.
 
-이제 localhost:40000으로 접속하면 실제 서버로 연결됩니다.
+이제 `localhost:40000`으로 접속하면 실제 서버로 연결됩니다.
