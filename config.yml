@@ -129,12 +129,19 @@ params:
 pygmentsUseClasses: false
 markup:
     highlight:
-        noClasses: true
-        # anchorLineNos: true
-        # codeFences: true
+        anchorLineNos: false
+        codeFences: true
         guessSyntax: true
+        hl_Lines: ""
+        hl_inline: false
+        lineAnchors: ""
+        lineNoStart: 1
         lineNos: true
+        lineNumbersInTable: true
+        noClasses: true
+        noHl: false
         style: dracula
+        tabWidth: 4
 
 defaultContentLanguage: "ko"
 languages:
