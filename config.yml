@@ -1,6 +1,6 @@
 baseURL: 'https://blog.ny64.kr'
 title: NY64의 무한삽질 블로그
-paginate: 15
+# paginate: 15
 theme: PaperMod
 
 pagination:
@@ -147,35 +147,36 @@ markup:
         tabWidth: 4
 
 defaultContentLanguage: 'ko'
-languages:
-    ko:
-        languageName: 'Korean'
-        weight: 1
-        taxonomies:
-            category: 카테고리
-            tag: 태그
-            series: 시리즈
-        menu:
-            main:
-                - identifier: search
-                  name: 검색
-                  url: /search
-                  weight: 1
+# languages:
+#     ko:
+#         languageName: 'Korean'
+#         weight: 1
+#         taxonomies:
+#             category: 카테고리
+#             tag: 태그
+#             series: 시리즈
+menu:
+    main:
+        - identifier: search
+          name: 검색
+          url: /search
+          weight: 1
 
-                - identifier: categories
-                  name: 카테고리
-                  url: /categories
-                  weight: 2
+        - identifier: categories
+          name: 카테고리
+          url: /categories
+          weight: 2
 
-                - identifier: tags
-                  name: 태그
-                  url: /tags
-                  weight: 3
+        - identifier: tags
+          name: 태그
+          url: /tags
+          weight: 3
 
-                - identifier: archives
-                  name: 아카이브
-                  url: /archives
-                  weight: 4
+        - identifier: archives
+          name: 아카이브
+          url: /archives
+          weight:
+              4
 
-                # - name: WiKi
-                #   url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+              # - name: WiKi
+              #   url: https://github.com/adityatelange/hugo-PaperMod/wiki/
