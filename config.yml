@@ -1,7 +1,10 @@
-baseURL: "https://blog.ny64.kr"
+baseURL: 'https://blog.ny64.kr'
 title: NY64의 무한삽질 블로그
 paginate: 15
 theme: PaperMod
+
+pagination:
+    pagerSize: 15
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -9,7 +12,7 @@ buildFuture: false
 buildExpired: false
 
 enableInlineShortcodes: true
-googleAnalytics: "G-HX48LG7RHQ"
+googleAnalytics: 'G-HX48LG7RHQ'
 
 minify:
     disableXML: true
@@ -24,13 +27,13 @@ outputs:
 params:
     env: production
     title: NY64의 무한삽질 블로그
-    description: "⚒️ 끝이 없는 삽질"
+    description: '⚒️ 끝이 없는 삽질'
     keywords: [Blog, 블로그, NY64, NY0510, 개발자, 개발블로그, 코딩, 김가온, 남냥, Devlog]
     author: NY64
-    images: ["https://raw.githubusercontent.com/NY0510/blog/main/static/image/og.png"]
-    DateFormat: "2006년 01월 02일"
+    images: ['https://raw.githubusercontent.com/NY0510/blog/main/static/image/og.png']
+    DateFormat: '2006년 01월 02일'
     footer:
-        text: ""
+        text: ''
         hideCopyright: false
     defaultTheme: dark # dark, light
     disableThemeToggle: true
@@ -55,14 +58,14 @@ params:
     assets:
         disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon.ico"
-        favicon16x16: "https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon-16x16.png"
-        favicon32x32: "https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon-32x32.png"
+        favicon: 'https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon.ico'
+        favicon16x16: 'https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon-16x16.png'
+        favicon32x32: 'https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon-32x32.png'
         apple_touch_icon: https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/apple-icon.png"
-        safari_pinned_tab: "https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/apple-icon.png"
+        safari_pinned_tab: 'https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/apple-icon.png'
 
     label:
-        text: "🌙"
+        text: '🌙'
         # icon: "https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon-32x32.png"
         iconHeight: 35
 
@@ -70,8 +73,8 @@ params:
     profileMode:
         enabled: false # needs to be explicitly set
         title: ExampleSite
-        subtitle: "This is subtitle"
-        imageUrl: "<img location>"
+        subtitle: 'This is subtitle'
+        imageUrl: '<img location>'
         imageWidth: 120
         imageHeight: 120
         imageTitle: my image
@@ -88,17 +91,17 @@ params:
 
     socialIcons:
         - name: custom_github
-          url: "https://github.com/NY0510"
+          url: 'https://github.com/NY0510'
         - name: custom_discord
-          url: "https://discord.com/users/690148325604720660"
+          url: 'https://discord.com/users/690148325604720660'
         - name: coffee
-          url: "https://toss.me/nyny64"
+          url: 'https://toss.me/nyny64'
         - name: custom_email
-          url: "mailto:me@ny64.kr"
+          url: 'mailto:me@ny64.kr'
 
     analytics:
         google:
-            SiteVerificationTag: ""
+            SiteVerificationTag: ''
         # bing:
         #     SiteVerificationTag: ""
         # yandex:
@@ -123,7 +126,7 @@ params:
         distance: 1000
         threshold: 0.4
         minMatchCharLength: 0
-        keys: ["title", "permalink", "summary", "content"]
+        keys: ['title', 'permalink', 'summary', 'content']
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: false
@@ -132,9 +135,9 @@ markup:
         anchorLineNos: false
         codeFences: true
         guessSyntax: true
-        hl_Lines: ""
+        hl_Lines: ''
         hl_inline: false
-        lineAnchors: ""
+        lineAnchors: ''
         lineNoStart: 1
         lineNos: true
         lineNumbersInTable: true
@@ -143,10 +146,10 @@ markup:
         style: dracula
         tabWidth: 4
 
-defaultContentLanguage: "ko"
+defaultContentLanguage: 'ko'
 languages:
     ko:
-        languageName: "Korean"
+        languageName: 'Korean'
         weight: 1
         taxonomies:
             category: 카테고리
