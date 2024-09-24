@@ -1,16 +1,16 @@
 ---
-title: "Tor 네트워크에 웹페이지 배포하기"
+title: 'Tor 네트워크에 웹페이지 배포하기'
 date: 2024-03-12T00:36:55+09:00
 comments: true
-categories: ["강좌"]
-summary: "🧅 양파망에 웹 서비스를 배포해보자"
+categories: ['강좌']
+summary: '🧅 양파망에 웹 서비스를 배포해보자'
 tags:
-    - "Tor"
-    - "Onion"
-    - "Hidden Service"
-    - "Web Server"
+    - 'Tor'
+    - 'Onion'
+    - 'Hidden Service'
+    - 'Web Server'
 cover:
-    image: "images/deploy-webpage-to-the-tor-network.jpg"
+    image: 'images/cover/deploy-webpage-to-the-tor-network.jpg'
     relative: true
 ---
 

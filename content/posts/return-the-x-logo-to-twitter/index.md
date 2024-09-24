@@ -1,15 +1,15 @@
 ---
-title: "X 로고를 트위터로 되돌리기 (iOS 한정)"
-summary: "일론머스크의 만행을 되돌리자"
+title: 'X 로고를 트위터로 되돌리기 (iOS 한정)'
+summary: '일론머스크의 만행을 되돌리자'
 date: 2023-10-03T07:40:58+09:00
 comments: true
-categories: ["강좌", "잡다한거"]
+categories: ['강좌', '잡다한거']
 tags:
     - X
     - Twitter
     - Elon Musk
 cover:
-    image: "images/return-the-x-logo-to-twitter.jpg"
+    image: 'images/cover/return-the-x-logo-to-twitter.jpg'
     relative: true
 ---
 

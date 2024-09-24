@@ -1,14 +1,14 @@
 ---
-title: "Proxmox VM 생성하기"
+title: 'Proxmox VM 생성하기'
 date: 2023-10-07T12:12:05+09:00
-summary: "24시간 돌아가는 나만의 서버! [2]"
-categories: ["강좌", "홈서버"]
+summary: '24시간 돌아가는 나만의 서버! [2]'
+categories: ['강좌', '홈서버']
 comments: true
 tags:
     - Proxmox
     - Home Server
 cover:
-    image: "images/creating-proxmox-vm.jpg"
+    image: 'images/cover/creating-proxmox-vm.jpg'
     relative: true
 ---
 
