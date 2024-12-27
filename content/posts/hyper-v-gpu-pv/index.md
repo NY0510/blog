@@ -70,6 +70,8 @@ Hyper-V 관리자를 열고 좌측의 '가상 스위치 관리자'를 클릭합�
 
 `NetworkSwitch`는 방금 생성한 네트워크 스위치의 이름을 입력해 주면 됩니다.
 
+`GPUResourceAllocationPercentage`의 10은 GPU 자원을 10% 할당한다는 의미입니다.
+
 ```powershell
 $params = @{
     VMName = "GPUPV" # Hyper-V VM 이름
@@ -106,7 +108,7 @@ $params = @{
 }
 ```
 
-파일을 모두 수저했다면 저장한 뒤 해당 폴더에서 PowerShell을 **관리자 권한으로 실행**한 뒤 스크립트를 실행합니다.
+파일을 모두 수정했다면 저장한 뒤 해당 폴더에서 PowerShell을 **관리자 권한으로 실행**한 뒤 스크립트를 실행합니다.
 
 ```powershell
 .\CopyFilesToVM.ps1
