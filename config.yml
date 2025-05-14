@@ -4,7 +4,7 @@ title: NY64의 무한삽질 블로그
 theme: PaperMod
 
 pagination:
-    pagerSize: 15
+  pagerSize: 15
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -15,136 +15,136 @@ enableInlineShortcodes: true
 googleAnalytics: 'G-HX48LG7RHQ'
 
 minify:
-    disableXML: true
-    minifyOutput: true
+  disableXML: true
+  minifyOutput: true
 
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 params:
-    env: production
-    title: NY64의 무한삽질 블로그
-    description: '⚒️ 끝이 없는 삽질'
-    keywords: [Blog, 블로그, NY64, NY0510, 개발자, 개발블로그, 코딩, 김가온, 남냥, Devlog]
-    author: NY64
-    images: ['https://raw.githubusercontent.com/NY0510/blog/main/static/image/og.png']
-    DateFormat: '2006년 01월 02일'
-    footer:
-        text: ''
-        hideCopyright: false
-    defaultTheme: dark # dark, light
-    disableThemeToggle: true
+  env: production
+  title: NY64의 무한삽질 블로그
+  description: '끝이 없는 삽질..'
+  keywords: [Blog, 블로그, NY64, NY0510, 개발자, 개발블로그, 코딩, 삽질, 무한삽질]
+  author: NY64
+  images: ['https://raw.githubusercontent.com/NY0510/blog/main/static/image/og.png']
+  DateFormat: '2006년 01월 02일'
+  footer:
+    text: ''
+    hideCopyright: false
+  defaultTheme: dark # dark, light
+  disableThemeToggle: true
 
-    ShowReadingTime: true
-    ShowShareButtons: false
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: false
-    ShowCodeCopyButtons: true
-    ShowWordCount: false
-    ShowRssButtonInSectionTermList: false
-    ShowComment: true
-    UseHugoToc: true
-    disableSpecial1stPost: false
-    disableScrollToTop: false
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  ShowComment: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
 
-    hidemeta: false
-    hideSummary: false
-    showtoc: true
-    tocopen: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: true
 
-    assets:
-        disableHLJS: true # to disable highlight.js
-        # disableFingerprinting: true
-        favicon: 'https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon.ico'
-        favicon16x16: 'https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon-16x16.png'
-        favicon32x32: 'https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon-32x32.png'
-        apple_touch_icon: https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/apple-icon.png"
-        safari_pinned_tab: 'https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/apple-icon.png'
+  assets:
+    disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: 'https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon.ico'
+    favicon16x16: 'https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon-16x16.png'
+    favicon32x32: 'https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon-32x32.png'
+    apple_touch_icon: https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/apple-icon.png"
+    safari_pinned_tab: 'https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/apple-icon.png'
 
-    label:
-        text: '🌙'
-        # icon: "https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon-32x32.png"
-        iconHeight: 35
+  label:
+    text: '🌙'
+    # icon: "https://raw.githubusercontent.com/NY0510/blog/main/static/favicon/favicon-32x32.png"
+    iconHeight: 35
 
-    # profile-mode
-    profileMode:
-        enabled: false # needs to be explicitly set
-        title: ExampleSite
-        subtitle: 'This is subtitle'
-        imageUrl: '<img location>'
-        imageWidth: 120
-        imageHeight: 120
-        imageTitle: my image
-        buttons:
-            - name: Posts
-              url: posts
-            - name: Tags
-              url: tags
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: 'This is subtitle'
+    imageUrl: '<img location>'
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
 
-    # home-info mode
-    homeInfoParams:
-        Title: "안녕하세요! <span class='tossface'>👋</span>"
-        Content: NY64의 무한삽질 블로그에 오신걸 환영합니다
+  # home-info mode
+  homeInfoParams:
+    Title: "안녕하세요! <span class='tossface'>👋</span>"
+    Content: NY64의 무한삽질 블로그에 오신걸 환영합니다
 
-    socialIcons:
-        - name: custom_github
-          url: 'https://github.com/NY0510'
-        - name: custom_discord
-          url: 'https://discord.com/users/690148325604720660'
-        - name: coffee
-          url: 'https://toss.me/nyny64'
-        - name: custom_email
-          url: 'mailto:me@ny64.kr'
+  socialIcons:
+    - name: github
+      url: 'https://github.com/NY0510'
+    # - name: discord
+    #   url: 'https://discord.com/users/690148325604720660'
+    - name: buymeacoffee
+      url: 'https://paypal.me/ny64'
+    - name: email
+      url: 'mailto:me@ny64.kr'
 
-    analytics:
-        google:
-            SiteVerificationTag: ''
-        # bing:
-        #     SiteVerificationTag: ""
-        # yandex:
-        #     SiteVerificationTag: ""
+  analytics:
+    google:
+      SiteVerificationTag: ''
+    # bing:
+    #     SiteVerificationTag: ""
+    # yandex:
+    #     SiteVerificationTag: ""
 
-    cover:
-        hidden: false # hide everywhere but not in structured data
-        hiddenInList: false # hide on list pages and home
-        hiddenInSingle: false # hide on single page
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
-    # editPost:
-    #     URL: "https://github.com/<path_to_repo>/content"
-    #     Text: "Suggest Changes" # edit text
-    #     appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #     URL: "https://github.com/<path_to_repo>/content"
+  #     Text: "Suggest Changes" # edit text
+  #     appendFilePath: true # to append file path to Edit link
 
-    # for search
-    # https://fusejs.io/api/options.html
-    fuseOpts:
-        isCaseSensitive: false
-        shouldSort: true
-        location: 0
-        distance: 1000
-        threshold: 0.4
-        minMatchCharLength: 0
-        keys: ['title', 'permalink', 'summary', 'content']
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ['title', 'permalink', 'summary', 'content']
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: false
 markup:
-    highlight:
-        anchorLineNos: false
-        codeFences: true
-        guessSyntax: true
-        hl_Lines: ''
-        hl_inline: false
-        lineAnchors: ''
-        lineNoStart: 1
-        lineNos: true
-        lineNumbersInTable: true
-        noClasses: true
-        noHl: false
-        style: dracula
-        tabWidth: 4
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: true
+    hl_Lines: ''
+    hl_inline: false
+    lineAnchors: ''
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: true
+    noHl: false
+    style: dracula
+    tabWidth: 4
 
 defaultContentLanguage: 'ko'
 # languages:
@@ -156,27 +156,27 @@ defaultContentLanguage: 'ko'
 #             tag: 태그
 #             series: 시리즈
 menu:
-    main:
-        - identifier: search
-          name: 검색
-          url: /search
-          weight: 1
+  main:
+    - identifier: search
+      name: 검색
+      url: /search
+      weight: 1
 
-        - identifier: categories
-          name: 카테고리
-          url: /categories
-          weight: 2
+    - identifier: categories
+      name: 카테고리
+      url: /categories
+      weight: 2
 
-        - identifier: tags
-          name: 태그
-          url: /tags
-          weight: 3
+    - identifier: tags
+      name: 태그
+      url: /tags
+      weight: 3
 
-        - identifier: archives
-          name: 아카이브
-          url: /archives
-          weight:
-              4
+    - identifier: archives
+      name: 아카이브
+      url: /archives
+      weight:
+        4
 
-              # - name: WiKi
-              #   url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+        # - name: WiKi
+        #   url: https://github.com/adityatelange/hugo-PaperMod/wiki/
