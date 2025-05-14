@@ -101,7 +101,7 @@ params:
 
   analytics:
     google:
-      SiteVerificationTag: 'G-HX48LG7RHQ'
+      SiteVerificationTag: ''
     # bing:
     #     SiteVerificationTag: ""
     # yandex:
