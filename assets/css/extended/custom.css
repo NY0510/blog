@@ -1,91 +1,95 @@
-/* 테마변경 트렌지션 */
-body {
-	transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+:root {
+  --main-width: 800px;
 }
+
+/* 테마변경 트렌지션 */
+/* body { */
+/* transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out; */
+/* } */
 
 /* 타이틀과 하단 마진 */
 .first-entry {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 /* 이미지 캡션 */
 img.figure {
-	margin-bottom: 0 !important;
-	/* max-width: 0%; */
+  margin-bottom: 0 !important;
+  /* max-width: 0%; */
 }
 figure {
-	margin-bottom: 40px !important;
+  margin-bottom: 40px !important;
 }
 
 /* 유튜브 임베드 모서리 둥글게 */
 .video-player {
-	overflow: hidden;
-	position: relative;
-	z-index: 10;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
-	width: 640px;
-	height: 380px;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  width: 640px;
+  height: 380px;
 }
 .video-player::before {
-	display: block;
-	content: "";
+  display: block;
+  content: '';
 }
 .youtube-player {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: 10;
-	width: 100%;
-	height: 100%;
-	border: 0;
-	-webkit-border-radius: 20px;
-	border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
 }
 
 /* 이전 / 다음 포스트 글자크기 */
 .paginav {
-	font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 /*  이전 / 다음 포스트 패딩 */
 .paginav > a {
-	padding: 0.5rem;
+  padding: 0.5rem;
 }
 .paginav > .prev {
-	padding-left: 1rem;
+  padding-left: 1rem;
 }
 .paginav > .next {
-	padding-right: 1rem;
+  padding-right: 1rem;
 }
 
 /* TOC안 Table of Conetnts 상단 마진 */
 div.toc > details[open] > summary {
-	margin-top: 0.8rem;
+  margin-top: 0.8rem;
 }
 
 /* Adfit */
 .adfit {
-	text-align: center;
-	margin: 0 auto;
-	overflow: hidden;
-	position: relative;
-	z-index: 10;
-	-webkit-border-radius: 8px;
-	border-radius: 8px;
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
 }
 .adfit.pc {
-	width: 728px;
-	height: 90px;
+  width: 728px;
+  height: 90px;
 }
 .adfit.mobile {
-	width: 350px;
-	height: 100px;
+  width: 350px;
+  height: 100px;
 }
 .adfit:first-of-type {
-	margin-top: 2rem;
+  margin-top: 2rem;
 }
 /* .adfit::before {
 	display: block;
@@ -94,19 +98,19 @@ div.toc > details[open] > summary {
 
 /* 상단메뉴 활성화 밑줄 높이 */
 #menu .active {
-	padding-bottom: 0.2rem;
+  padding-bottom: 0.2rem;
 }
 
 /* 로고 뱅글뱅글 */
 .logo a:hover {
-	animation: rotate 1.5s infinite cubic-bezier(0.25, 0.8, 0.25, 1);
+  animation: rotate 1.5s infinite cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 @keyframes rotate {
-	from {
-		transform: rotate(0deg);
-	}
-	to {
-		transform: rotate(360deg);
-	}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
