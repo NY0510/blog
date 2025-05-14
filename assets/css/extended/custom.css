@@ -91,6 +91,9 @@ div.toc > details[open] > summary {
 .adfit:first-of-type {
   margin-top: 2rem;
 }
+.adfit:last-of-type {
+  margin-bottom: 2rem;
+}
 /* .adfit::before {
 	display: block;
 	content: "";
