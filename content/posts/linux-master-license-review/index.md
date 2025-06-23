@@ -5,7 +5,7 @@ comments: true
 categories: ['잡다한거']
 summary: 'CBT는 신이야'
 tags:
-  - 리눅스
+  - Linux
   - 자격증
   - 리눅스마스터
 ---
